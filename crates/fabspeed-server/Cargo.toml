@@ -1,0 +1,45 @@
+[package]
+name = "fabspeed-server"
+description = "Serveur FabSpeed : API REST JSON (FabCAM, scripts) + interface web embarquée"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lib]
+name = "fabspeed_server"
+path = "src/lib.rs"
+
+[[bin]]
+name = "fabspeed"
+path = "src/main.rs"
+
+[dependencies]
+fabspeed-core = { path = "../fabspeed-core" }
+axum = "0.8"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "signal", "sync", "fs", "time"] }
+tower-http = { version = "0.6", features = ["cors"] }
+rust-embed = "8"
+mime_guess = "2"
+clap = { version = "4", features = ["derive", "env"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }
+thiserror = { workspace = true }
+time = { version = "0.3", features = ["formatting", "parsing"] }
+tempfile = "3"
+fs2 = "0.4"
+libc = "0.2"
+jsonschema = { version = "0.33", default-features = false }
+sha2 = "0.10"
+argon2 = { version = "0.5", features = ["std"] }
+
+[dev-dependencies]
+tower = { version = "0.5", features = ["util"] }
+http-body-util = "0.1"
+tempfile = "3"

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "FabSpeed",
+  "version": "0.9.0-beta.1",
+  "identifier": "fr.fablab.fabspeed",
+  "build": {
+    "beforeBuildCommand": "npm --prefix ../ui run build",
+    "frontendDist": "../../ui/dist"
+  },
+  "app": {
+    "windows": [],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "../../data/dataset.toml": "base-data/dataset.toml",
+      "../../data/machines.toml": "base-data/machines.toml",
+      "../../data/materials.toml": "base-data/materials.toml",
+      "../../data/advisor.toml": "base-data/advisor.toml",
+      "../../data/tools/generic.toml": "base-data/tools/generic.toml",
+      "../../data/presets/README.md": "base-data/presets/README.md",
+      "../../data/i18n/en.toml": "base-data/i18n/en.toml"
+    },
+    "category": "Utility",
+    "copyright": "© 2026 Stéphane Muller — GPL-3.0-or-later",
+    "license": "GPL-3.0-or-later",
+    "licenseFile": "../../LICENSE",
+    "shortDescription": "Feeds & speeds pour fraiseuses CNC de fablab",
+    "longDescription": "FabSpeed calcule des réglages de coupe prudents et expliqués (rotation, avance, plongée, profondeur de passe) pour les fraiseuses CNC de fablab, et construit la base du lab à partir des essais. Rust et Svelte, GPL-3.0-or-later.",
+    "macOS": {
+      "signingIdentity": "-",
+      "minimumSystemVersion": "11.0"
+    }
+  }
+}

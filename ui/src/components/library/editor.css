@@ -1,0 +1,201 @@
+/* Styles communs aux inspecteurs de la bibliothèque (préfixés par .editor). */
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  padding: var(--s3);
+}
+
+.editor header {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.editor h2 {
+  margin: 0;
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.editor h3 {
+  margin: var(--s3) 0 0;
+  padding-top: var(--s2);
+  border-top: 1px solid var(--divider);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-section);
+}
+
+.editor .opt {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.editor .id {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+
+.editor .layer {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  cursor: help;
+}
+
+.editor .layer.base {
+  color: var(--text-secondary);
+  background: var(--neutral-tint);
+}
+
+.editor .layer.lab {
+  color: var(--origin-user);
+  background: var(--origin-user-tint);
+}
+
+.editor .layer.modified {
+  color: var(--warning);
+  background: var(--warning-tint);
+}
+
+.editor .note,
+.editor .sub {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  line-height: 1.45;
+}
+
+.editor .full {
+  width: 100%;
+}
+
+.editor .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.editor .chip {
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-control);
+  color: var(--text-secondary);
+  font-size: var(--fs-xs);
+}
+
+.editor .chip:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.editor .chip.on {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+  color: var(--text-primary);
+}
+
+.editor .chip.bad.on {
+  border-color: var(--warning);
+  background: var(--warning-tint);
+}
+
+.editor .notes {
+  height: auto;
+  padding: 6px var(--s2);
+  resize: vertical;
+  font: inherit;
+}
+
+.editor .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  margin-top: var(--s2);
+}
+
+/* Fiche modifiée : la barre d'enregistrement reste visible en bas de l'inspecteur. */
+.editor .actions.pending {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  margin: var(--s2) calc(-1 * var(--s3)) 0;
+  padding: var(--s2) var(--s3);
+  border-top: 1px solid var(--accent);
+  background: var(--bg-panel);
+}
+
+.editor .actions .guest {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: var(--fs-xs);
+}
+
+.editor .warn {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0;
+  color: var(--warning);
+  font-size: var(--fs-sm);
+  line-height: 1.45;
+}
+
+.editor .warn :global(svg) {
+  flex: none;
+  margin-top: 2px;
+}
+
+.editor .danger {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  padding-top: var(--s2);
+  border-top: 1px solid var(--divider);
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+}
+
+.editor .status {
+  flex: none;
+  width: 92px;
+  padding: 0 4px;
+  font-size: var(--fs-xs);
+}
+
+.editor .status.estimate {
+  color: var(--text-secondary);
+}
+
+.editor .status.to_verify {
+  color: var(--warning);
+}
+
+.editor .status.verified {
+  color: var(--success);
+}
+
+.editor .xyz {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  width: 100%;
+}

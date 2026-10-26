@@ -1,0 +1,282 @@
+# English translation of the user-facing data texts.
+#
+# Keys are the record identifiers of the base files (materials.toml, advisor.toml,
+# machines.toml, tools/*.toml). Any missing text falls back to French.
+# Numbers are never translated here: they live in the base files only.
+# Records created in the app (data/lab/) are shown as typed.
+
+# ---------------------------------------------------------------- Materials
+
+[materials."material/wood.plywood"]
+name = "Plywood"
+description = "Poplar, birch, okoume… Cross-laminated plies: surface tear-out is common."
+tips = [
+  "A downcut tool keeps the top clean, an upcut tool the bottom.",
+  "For perfect edges: rough with downcut passes, finish with an upcut pass.",
+]
+source = "Generic constants calibrated below the lab's historical wiki tests"
+
+[materials."material/wood.mdf"]
+name = "MDF"
+description = "Homogeneous fibreboard. Very abrasive for tools; fine dust: dust extraction is essential."
+tips = ["Very fine dust: check the dust extraction before starting."]
+source = "Generic constants calibrated below the lab's historical wiki tests"
+
+[materials."material/wood.osb"]
+name = "Chipboard / OSB"
+description = "Particle or oriented-strand boards, often with hard glues."
+tips = ["Glues wear tools quickly: a diamond-cut tool is suitable."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/wood.softwood"]
+name = "Softwood (pine, spruce…)"
+description = "Solid softwoods. Cuts easily but tears along the grain."
+tips = ["Knots are harder: lower the feed if the part has many."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/wood.oak"]
+name = "Oak"
+description = "Solid oak. Burns easily if the tool rubs."
+tips = ["Burn marks = chip too thin: raise the feed rather than lowering it."]
+source = "Generic constants calibrated below the lab's historical wiki tests (oak)"
+
+[materials."material/wood.hardwood"]
+name = "Hardwood (beech, ash, walnut…)"
+description = "Hard broadleaf woods. Oak settings are not applied to them automatically."
+tips = ["Very hard or exotic species: start in Cautious mode."]
+source = "Same constants as oak, without associated preset"
+
+[materials."material/composite.hpl"]
+name = "Compact laminate (HPL)"
+description = "Very hard and abrasive resin-and-paper panel."
+tips = ["Diamond-cut tool recommended by the supplier.", "Very abrasive: check tool wear."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/plastic.pmma"]
+name = "Acrylic (PMMA, Plexiglas)"
+description = "Brittle transparent plastic. Cast machines better than extruded, which melts more easily."
+tips = [
+  "Preferably a polished single-flute tool: better chip evacuation.",
+  "Use an air blast to clear chips and cool.",
+  "Powdery or melted chips = spindle speed too high for the feed.",
+]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/plastic.pom"]
+name = "POM (Delrin)"
+description = "Dense engineering plastic that machines very well."
+tips = ["Single-flute tool: continuous chips evacuate better."]
+source = "Constants calibrated below the lab's historical wiki tests"
+
+[materials."material/plastic.hdpe"]
+name = "Polyethylene (HDPE)"
+description = "Soft, greasy plastic: melts easily, frequent burrs."
+tips = ["This material moves: screw it down well, it tends to lift."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/plastic.pvc-foam"]
+name = "Foamed PVC (Forex)"
+description = "Lightweight cellular PVC sheet for signage."
+tips = ["Heated PVC gives off harmful fumes: avoid any rubbing."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/foam.xps"]
+name = "Foam (XPS, PU, polystyrene)"
+description = "Insulation or modelling foams. Very low forces."
+tips = ["A long tool is often needed: check the flute length."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/foam.tooling-board"]
+name = "Tooling board (high-density PU)"
+description = "Dense polyurethane resin for moulds and models."
+tips = ["Fine dust: dust extraction is essential."]
+source = "Cautious general reference (no lab test)"
+
+[materials."material/metal.aluminium"]
+name = "Aluminium"
+description = "Grade not specified in the lab wiki. Slow machining at low engagement."
+tips = [
+  "Hold the stock with 6 clamps.",
+  "Turn off the dust extraction (dust extraction stop button).",
+  "Keep the stepover below 30%.",
+  "Cool with compressed air and keep each operation short.",
+  "Check Z between operations: the tool can slip in the collet.",
+]
+source = "Constants calibrated below the lab's historical wiki tests; wiki instructions"
+
+[materials."material/metal.brass"]
+name = "Brass"
+description = "Grade not specified in the lab wiki. Fine chips, very shallow passes."
+tips = [
+  "Hold the stock with 6 clamps.",
+  "Turn off the dust extraction (dust extraction stop button).",
+  "Keep the stepover below 30%.",
+  "Check Z between operations.",
+]
+source = "Constants calibrated below the lab's historical wiki tests; wiki instructions"
+
+# ---------------------------------------------------------------- Diagnosis
+
+[symptoms.burning]
+label = "Smoke, the wood is burning"
+cause = "Chip too thin: the tool rubs instead of cutting."
+explanation = "Heat stays in the tool and the part instead of leaving with the chip. You need thicker chips: more feed or less spindle speed."
+advice = [
+  "Check the tool is not dull: a worn tool always burns.",
+  "A 1- or 2-flute tool makes thicker chips at the same feed.",
+]
+
+[symptoms.dust]
+label = "Fine dust instead of chips"
+cause = "Chip too thin."
+explanation = "Very fine “flour” means each tooth takes almost nothing. The chip should be visible and clean."
+advice = ["MDF naturally makes fine dust: judge by the tool temperature instead."]
+
+[symptoms.melting]
+label = "The plastic melts or sticks to the tool"
+cause = "Heat build-up and poorly evacuated chips welding back."
+explanation = "The softened chip clogs the flute. Lower the spindle speed, keep a thick chip and clear the tool with shallower passes."
+advice = [
+  "Use a polished single-flute (O-flute) tool and an air blast.",
+  "Avoid re-cutting an already machined slot.",
+]
+
+[symptoms.chatter]
+label = "Squealing, vibrating, wavy walls"
+cause = "Tool deflection and vibration (chatter)."
+explanation = "The tool bends under load and bounces off the wall. A shallower pass immediately reduces the force; changing the speed a little breaks the resonance."
+advice = [
+  "Push the tool as far as possible into the collet: 20% less stickout is nearly twice the rigidity.",
+  "Check that the collet and nut are tight.",
+]
+
+[symptoms.overload]
+label = "The machine strains, knocks or loses steps"
+cause = "Force too high for the gantry or the motors."
+explanation = "The volume of material removed per second needs more force than the machine can take. Reduce the depth first, then the feed."
+advice = [
+  "In pockets, prefer a smaller stepover to a full-width slot.",
+  "After lost steps, re-zero before continuing.",
+]
+
+[symptoms.tearout]
+label = "Tear-out on the top of the sheet"
+cause = "Fibres pulled upwards by an upcut tool."
+explanation = "A positive helix (upcut) pulls the top fibres, which nothing holds back. The problem mostly comes from the tool geometry."
+advice = [
+  "Use a downcut (negative helix) or compression tool.",
+  "Or make a very shallow first pass (0.5 mm) to score the outline.",
+]
+
+[symptoms.rough_finish]
+label = "Poor surface finish, regular marks"
+cause = "Feed too high for finishing, or the tool deflects."
+explanation = "Each tooth leaves a mark: for the same finish, feed a little slower and leave a light finishing pass."
+advice = ["Add a finishing pass (Finishing operation) with 0.3 to 0.5 mm stock to leave."]
+
+[symptoms.part_moves]
+label = "The part moves or lifts"
+cause = "The workholding does not resist the side force."
+explanation = "The cutting force exceeds what the workholding can take. Reduce the force (shallower pass) and improve the fixing."
+advice = [
+  "Screw the part to the spoilboard or add clamps away from the toolpaths.",
+  "Leave tabs to hold the cut-out parts.",
+  "A downcut tool presses the part down instead of lifting it.",
+]
+
+[symptoms.tool_broke]
+label = "The tool broke"
+cause = "Force or chip too high, or chip packing."
+explanation = "A tool rarely breaks without warning: vibrations, dull knocking or blocked chips. Restart much more gently."
+advice = [
+  "Check chip evacuation (dust extraction, deep slots).",
+  "Push the tool as far as possible into the collet.",
+]
+
+# ---------------------------------------------------------------- Machines
+
+[machines."shopbot-prs-standard-96x48-2016"]
+category = "Gantry router"
+description = "The fablab's ShopBot: large format, rack and pinion, stepper motors. FabSpeed's main test profile."
+notes = [
+  "The original fab lab's historical settings (former wiki) were established on this machine.",
+  "Check the spindle nameplate and the drive settings to confirm the speed range.",
+]
+
+[machines."shopbot-prs-standard-96x48-2016".sources]
+rpm_min = "Lowest speed used in the lab wiki (brass, 8,000 rpm). Actual drive minimum to be confirmed."
+rpm_max = "Highest speed used in the lab wiki (18,000 rpm), consistent with documented 2.2 kW ShopBot spindles (9,000–18,000 rpm). To be confirmed on the nameplate."
+spindle_power_w = "2.2 kW (3 hp) spindle option, common on PRS machines. The lab's spindle type is not confirmed (spindle or router)."
+spindle_rated_rpm = "Assumption: constant-torque spindle reaching rated power at maximum speed."
+max_feed_mm_min = "Maximum feed used in the lab wiki (6,000 mm/min = 100 mm/s). The PRS5 Standard sheet states up to 360 in/min cutting; 2016 generation to be confirmed."
+max_lateral_force_n = "Order of magnitude for a rack-and-pinion gantry router (≈180 N). Not measured: used for relative gauges."
+work_area_mm = "About 97 × 49 in usable travel; Z travel of 6 in (152 mm) or 8 in depending on configuration."
+
+[machines.generic-hobby-router]
+name = "Hobby router (Shapeoko / X-Carve type)"
+category = "Gantry router"
+description = "Light gantry with belts or screws, 1/4\" Makita-type trim router. Generic profile to adapt."
+notes = ["Generic profile: adjust the values to your machine."]
+
+[machines.generic-hobby-router.sources]
+rpm_min = "Makita RT0701C-type router: setting 1 ≈ 10,000 rpm."
+rpm_max = "Makita RT0701C-type router: setting 6 ≈ 30,000 rpm."
+spindle_power_w = "710 W input power; useful power is lower."
+max_feed_mm_min = "Typical cutting feed for this class of machine."
+max_lateral_force_n = "Light gantry: order of magnitude, not measured."
+
+[machines.generic-desktop-cnc]
+name = "Small desktop CNC (3018 type)"
+category = "Desktop CNC"
+description = "Small machine with a 775 motor or 300–500 W spindle, light aluminium frame. Very cautious generic profile."
+notes = ["Generic profile: adjust the values to your machine.", "Metals are not recommended on this class of machine."]
+
+[machines.generic-desktop-cnc.sources]
+rpm_max = "Typical 775 motor ≈ 10,000–12,000 rpm."
+spindle_power_w = "775 motor / small spindle."
+max_feed_mm_min = "Order of magnitude for a light machine."
+max_lateral_force_n = "Light frame: order of magnitude, not measured."
+
+# ---------------------------------------------------------------- Tools
+
+[tools."generic/flat-3.175-2f-up"]
+name = "Flat end mill Ø3.175 · 2 flutes · upcut"
+notes = ["1/8\" shank. Clears chips well; the top surface may tear out."]
+
+[tools."generic/flat-3.175-2f-down"]
+name = "Flat end mill Ø3.175 · 2 flutes · downcut"
+notes = ["Negative helix: clean top surface, chips pushed downwards."]
+
+[tools."generic/flat-6-1f-up"]
+name = "Flat end mill Ø6 · 1 flute · upcut"
+notes = ["Single flute: large chips, ideal for plastics and aluminium."]
+
+[tools."generic/flat-6-2f-down"]
+name = "Flat end mill Ø6 · 2 flutes · downcut"
+notes = ["Negative helix: clean top surface, chips pushed downwards."]
+
+[tools."generic/compression-6-2f"]
+name = "Compression bit Ø6 · 2 flutes"
+notes = ["Clean top and bottom edges in sheet goods. 6 mm upcut section: check it on your bit."]
+
+[tools."generic/flat-8-1f-up"]
+name = "Flat end mill Ø8 · 1 flute · upcut"
+
+[tools."generic/ball-3.175-2f"]
+name = "Ball nose Ø3.175 · 2 flutes"
+notes = ["Radius 1.5875 mm. For 3D relief and round-bottomed grooves."]
+
+[tools."generic/vbit-90-12.7"]
+name = "V-bit 90° · Ø12.7"
+notes = ["Engraving, chamfers and V-carving."]
+
+[tools."generic/vbit-60-6"]
+name = "V-bit 60° · Ø6"
+
+[tools."generic/surfacing-25-2f"]
+name = "Surfacing bit Ø25 · 2 flutes"
+notes = ["To surface the spoilboard or the top of a blank."]
+
+[tools."generic/diamond-cut-3"]
+name = "Diamond-cut router bit Ø3"
+notes = ["Fibreglass, PCBs, composites.", "Number of teeth not defined: no chipload calculation."]

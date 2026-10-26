@@ -1,0 +1,280 @@
+# Matières : constantes empiriques normalisées au diamètre de fraise (fraise carbure).
+#
+#   vc_m_min            vitesse de coupe cible (m/min) → rotation N = Vc × 1000 / (π × D)
+#   k_fz                avance par dent nominale par mm de diamètre → fz = D × k_fz
+#   k_ap                profondeur de passe nominale en rainure par mm de diamètre → ap = D × k_ap
+#   kc_n_mm2            pression spécifique de coupe (N/mm²) → puissance et efforts estimés
+#   fz_min_mm           copeau minimal : en dessous, la fraise frotte et chauffe
+#   default_stepover    pas latéral par défaut des poches (fraction de D)
+#   max_profile_thickness_mm   épaisseur max à détourer en plein (métaux)
+#   supervision_required       usinage accompagné d'un fabmanager
+#
+# Calibrage (voir docs/CALCULATION_MODEL.md § Calibrage) : les constantes bois,
+# POM et métaux ont été choisies pour que le modèle, en mode Normal sur la
+# ShopBot, reste en dessous des réglages testés du wiki du lab (avance et
+# profondeur), tout en restant au-dessus du seuil de frottement.
+# Les autres matières partent de références générales prudentes : evidence = "theoretical".
+
+[[materials]]
+id = "material/wood.plywood"
+name = "Contreplaqué"
+category = "panel"
+description = "Peuplier, bouleau, okoumé… Collé en plis croisés : les éclats de surface sont fréquents."
+vc_m_min = 280
+k_fz = 0.035
+k_ap = 0.42
+kc_n_mm2 = 60
+fz_min_mm = 0.02
+default_stepover = 0.4
+default_thickness_mm = 18
+tips = [
+  "Une fraise downcut garde le dessus propre, une upcut le dessous.",
+  "Pour des bords parfaits : passes de dégrossissage en downcut, dernière passe en upcut.",
+]
+source = "Constantes génériques calées sous les essais historiques du wiki du lab"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/wood.mdf"
+name = "MDF"
+category = "panel"
+description = "Panneau de fibres homogène. Très abrasif pour les fraises ; poussière fine : aspiration indispensable."
+vc_m_min = 350
+k_fz = 0.03
+k_ap = 0.45
+kc_n_mm2 = 50
+fz_min_mm = 0.02
+default_stepover = 0.4
+default_thickness_mm = 18
+tips = ["Poussière très fine : vérifiez l'aspiration avant de lancer."]
+source = "Constantes génériques calées sous les essais historiques du wiki du lab"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/wood.osb"
+name = "Aggloméré / OSB"
+category = "panel"
+description = "Panneaux de particules ou de lamelles orientées, souvent avec colles dures."
+vc_m_min = 300
+k_fz = 0.03
+k_ap = 0.4
+kc_n_mm2 = 70
+fz_min_mm = 0.02
+default_stepover = 0.4
+default_thickness_mm = 18
+tips = ["Les colles usent vite les fraises : une fraise taille diamant est adaptée."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/wood.softwood"
+name = "Bois tendre (pin, épicéa…)"
+category = "wood"
+description = "Résineux massifs. Se coupe facilement mais s'arrache sur le fil."
+vc_m_min = 350
+k_fz = 0.04
+k_ap = 0.5
+kc_n_mm2 = 40
+fz_min_mm = 0.02
+default_stepover = 0.4
+default_thickness_mm = 20
+tips = ["Les nœuds sont plus durs : réduisez l'avance si la pièce en contient beaucoup."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/wood.oak"
+name = "Chêne"
+category = "wood"
+aliases = ["fablab-material-oak"]
+description = "Chêne massif. Brûle facilement si la fraise frotte."
+vc_m_min = 280
+k_fz = 0.022
+k_ap = 0.33
+kc_n_mm2 = 90
+fz_min_mm = 0.02
+default_stepover = 0.35
+default_thickness_mm = 20
+tips = ["Traces de brûlure = copeau trop fin : augmentez l'avance plutôt que de baisser."]
+source = "Constantes génériques calées sous les essais historiques du wiki du lab (chêne)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/wood.hardwood"
+name = "Bois dur (hêtre, frêne, noyer…)"
+category = "wood"
+description = "Feuillus durs. Les réglages du chêne ne leur sont pas appliqués automatiquement."
+vc_m_min = 280
+k_fz = 0.022
+k_ap = 0.33
+kc_n_mm2 = 90
+fz_min_mm = 0.02
+default_stepover = 0.35
+default_thickness_mm = 20
+tips = ["Essence très dure ou exotique : commencez en mode Prudent."]
+source = "Mêmes constantes que le chêne, sans préréglage associé"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/composite.hpl"
+name = "Stratifié compact (HPL)"
+category = "composite"
+description = "Panneau de résine et papier très dur et abrasif."
+vc_m_min = 250
+k_fz = 0.015
+k_ap = 0.2
+kc_n_mm2 = 180
+fz_min_mm = 0.015
+default_stepover = 0.3
+default_thickness_mm = 10
+tips = ["Fraise taille diamant recommandée par le fournisseur.", "Très abrasif : contrôlez l'usure de la fraise."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/plastic.pmma"
+name = "Acrylique (PMMA, Plexiglas)"
+category = "plastic"
+description = "Plastique transparent cassant. Le coulé s'usine mieux que l'extrudé, qui fond plus facilement."
+vc_m_min = 250
+k_fz = 0.02
+k_ap = 0.35
+kc_n_mm2 = 120
+fz_min_mm = 0.04
+default_stepover = 0.35
+default_thickness_mm = 5
+tips = [
+  "Fraise 1 dent polie de préférence : meilleure évacuation des copeaux.",
+  "Soufflette d'air pour évacuer les copeaux et refroidir.",
+  "Copeaux en poudre ou fondus = rotation trop élevée pour l'avance.",
+]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/plastic.pom"
+name = "POM (Delrin)"
+category = "plastic"
+description = "Plastique technique dense, s'usine très bien."
+vc_m_min = 100
+k_fz = 0.022
+k_ap = 0.3
+kc_n_mm2 = 110
+fz_min_mm = 0.04
+default_stepover = 0.35
+default_thickness_mm = 10
+tips = ["Fraise 1 dent : les copeaux continus s'évacuent mieux."]
+source = "Constantes calées sous les essais historiques du wiki du lab"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/plastic.hdpe"
+name = "Polyéthylène (PEHD)"
+category = "plastic"
+description = "Plastique souple et gras : fond facilement, bavures fréquentes."
+vc_m_min = 250
+k_fz = 0.025
+k_ap = 0.4
+kc_n_mm2 = 60
+fz_min_mm = 0.04
+default_stepover = 0.35
+default_thickness_mm = 10
+tips = ["Matière qui bouge : vissez-la bien, elle a tendance à se soulever."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/plastic.pvc-foam"
+name = "PVC expansé (Forex)"
+category = "plastic"
+description = "Plaque de PVC alvéolaire légère pour la signalétique."
+vc_m_min = 300
+k_fz = 0.03
+k_ap = 0.5
+kc_n_mm2 = 30
+fz_min_mm = 0.03
+default_stepover = 0.4
+default_thickness_mm = 5
+tips = ["Le PVC chauffé dégage des fumées nocives : évitez tout frottement."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/foam.xps"
+name = "Mousse (XPS, PU, polystyrène)"
+category = "foam"
+description = "Mousses isolantes ou de modelage. Efforts très faibles."
+vc_m_min = 500
+k_fz = 0.04
+k_ap = 1.0
+kc_n_mm2 = 5
+fz_min_mm = 0.02
+default_stepover = 0.5
+default_thickness_mm = 50
+tips = ["Fraise longue souvent nécessaire : vérifiez la longueur utile."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/foam.tooling-board"
+name = "Planche à modeler (PU haute densité)"
+category = "foam"
+description = "Résine polyuréthane dense pour les moules et maquettes."
+vc_m_min = 400
+k_fz = 0.03
+k_ap = 0.6
+kc_n_mm2 = 25
+fz_min_mm = 0.02
+default_stepover = 0.4
+default_thickness_mm = 50
+tips = ["Poussière fine : aspiration indispensable."]
+source = "Référence générale prudente (aucun essai au lab)"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/metal.aluminium"
+name = "Aluminium"
+category = "metal"
+description = "Nuance non précisée dans le wiki du lab. Usinage lent, à faible engagement."
+vc_m_min = 300
+k_fz = 0.0045
+k_ap = 0.25
+kc_n_mm2 = 700
+fz_min_mm = 0.01
+default_stepover = 0.2
+default_thickness_mm = 5
+max_profile_thickness_mm = 10
+supervision_required = true
+tips = [
+  "Fixer la matière avec 6 pinces.",
+  "Désactiver l'aspiration (bouton d'arrêt de l'aspiration).",
+  "Garder un pas latéral inférieur à 30 %.",
+  "Refroidir à l'air comprimé et limiter la durée de chaque opération.",
+  "Vérifier le Z entre chaque opération : la fraise peut glisser dans la pince.",
+]
+source = "Constantes calées sous les essais historiques du wiki du lab ; consignes du wiki"
+evidence = "theoretical"
+
+[[materials]]
+id = "material/metal.brass"
+name = "Laiton"
+category = "metal"
+aliases = ["fablab-material-brass"]
+description = "Nuance non précisée dans le wiki du lab. Copeaux fins, passes très faibles."
+vc_m_min = 120
+k_fz = 0.005
+k_ap = 0.08
+kc_n_mm2 = 800
+fz_min_mm = 0.008
+default_stepover = 0.2
+default_thickness_mm = 3
+max_profile_thickness_mm = 10
+supervision_required = true
+tips = [
+  "Fixer la matière avec 6 pinces.",
+  "Désactiver l'aspiration (bouton d'arrêt de l'aspiration).",
+  "Garder un pas latéral inférieur à 30 %.",
+  "Vérifier le Z entre chaque opération.",
+]
+source = "Constantes calées sous les essais historiques du wiki du lab ; consignes du wiki"
+evidence = "theoretical"

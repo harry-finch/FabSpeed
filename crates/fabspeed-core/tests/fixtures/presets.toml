@@ -1,0 +1,66 @@
+# Réglages de référence FICTIFS, pour les tests de précédence uniquement.
+# Valeurs inventées (ni wiki, ni essai réel) : ne pas les utiliser en atelier.
+
+[[presets]]
+id = "fixture-plywood-flat6-normal"
+label = "Exemple · Contreplaqué · Ø6 1 dent (Normal)"
+source = "Jeu de test"
+evidence = "reference_data"
+machines = ["shopbot-prs-standard-96x48-2016"]
+material = "material/wood.plywood"
+tool = "generic/flat-6-1f-up"
+operations = ["profile", "full_slot", "pocket"]
+aggressiveness = "normal"
+rpm = 15000
+feed_mm_min = 5000
+doc_mm = 3
+stepover_max = 0.5
+notes = []
+
+[[presets]]
+id = "fixture-mdf-flat3down-prudent"
+label = "Exemple · MDF · Ø3,175 downcut (Prudent)"
+source = "Jeu de test"
+evidence = "reference_data"
+machines = ["shopbot-prs-standard-96x48-2016"]
+material = "material/wood.mdf"
+tool = "generic/flat-3.175-2f-down"
+operations = ["profile", "full_slot", "pocket"]
+aggressiveness = "prudent"
+rpm = 18000
+feed_mm_min = 3000
+doc_mm = 1
+stepover_max = 0.5
+notes = []
+
+[[presets]]
+id = "fixture-oak-flat6-normal"
+label = "Exemple · Chêne · Ø6 1 dent (Normal)"
+source = "Jeu de test"
+evidence = "reference_data"
+machines = ["shopbot-prs-standard-96x48-2016"]
+material = "material/wood.oak"
+tool = "generic/flat-6-1f-up"
+operations = ["profile", "full_slot", "pocket"]
+aggressiveness = "normal"
+rpm = 15000
+feed_mm_min = 3500
+doc_mm = 2
+stepover_max = 0.5
+notes = []
+
+[[presets]]
+id = "fixture-aluminium-flat6-normal"
+label = "Exemple · Aluminium · Ø6 1 dent (Normal)"
+source = "Jeu de test"
+evidence = "reference_data"
+machines = ["shopbot-prs-standard-96x48-2016"]
+material = "material/metal.aluminium"
+tool = "generic/flat-6-1f-up"
+operations = ["profile", "full_slot", "pocket"]
+aggressiveness = "normal"
+rpm = 16000
+feed_mm_min = 450
+doc_mm = 1.5
+stepover_max = 0.5
+notes = []

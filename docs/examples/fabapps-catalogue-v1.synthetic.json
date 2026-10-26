@@ -1,0 +1,104 @@
+{
+  "format": "fabapps-catalogue",
+  "version": 1,
+  "catalogue_id": "synthetic-source-00000000-0000-4000-8000-000000000001",
+  "publisher": {
+    "application": "fabspeed",
+    "application_version": "synthetic-example"
+  },
+  "complete": true,
+  "language": "fr",
+  "machines": [
+    {
+      "id": "synthetic/machine-alpha",
+      "kind": "machine_profile",
+      "name": "Profil fictif Alpha",
+      "limits": {
+        "rpm_min": {
+          "value": 6000,
+          "status": "estimate"
+        },
+        "rpm_max": {
+          "value": 20000,
+          "status": "to_verify"
+        },
+        "max_feed_mm_min": {
+          "value": 4800,
+          "status": "unknown"
+        }
+      },
+      "revision": "sha256:d6505eba333a7ab038fbe518d7ab49d90f13265702f91d4e42333b245479c51d"
+    }
+  ],
+  "tools": [
+    {
+      "id": "synthetic/tool-beta",
+      "kind": "tool_spec",
+      "name": "Spécification fictive Beta",
+      "family": "flat_endmill",
+      "helix": "upcut",
+      "tool_material": "carbide",
+      "diameter_mm": 5,
+      "flute_length_mm": 15,
+      "flutes": 2,
+      "shank_mm": 6,
+      "revision": "sha256:300bf31a70196d0dec4fbca9a596e30643712275a2eb5ed4a825553a62b65f6d"
+    }
+  ],
+  "materials": [
+    {
+      "id": "synthetic/material-gamma",
+      "kind": "material_profile",
+      "name": "Profil matière fictif Gamma",
+      "category": "panel",
+      "supervision_required": false,
+      "revision": "sha256:7458ad9056f7f9b2182cf8027d668ced5dc32ea8ef6f484c00a8df8f9ae7b6b0"
+    }
+  ],
+  "presets": [
+    {
+      "id": "trial:synthetic-trial-delta",
+      "name": "Réglage fictif Delta",
+      "status": "validated",
+      "machine": {
+        "id": "synthetic/machine-alpha",
+        "revision": "sha256:d6505eba333a7ab038fbe518d7ab49d90f13265702f91d4e42333b245479c51d"
+      },
+      "tool": {
+        "id": "synthetic/tool-beta",
+        "revision": "sha256:300bf31a70196d0dec4fbca9a596e30643712275a2eb5ed4a825553a62b65f6d"
+      },
+      "material": {
+        "id": "synthetic/material-gamma",
+        "revision": "sha256:7458ad9056f7f9b2182cf8027d668ced5dc32ea8ef6f484c00a8df8f9ae7b6b0"
+      },
+      "context": {
+        "operation": "pocket",
+        "aggressiveness": "normal",
+        "workholding": "screws_clamps",
+        "stepover_ratio": 0.3,
+        "thickness_mm": 12,
+        "depth_mm": 6,
+        "stickout_mm": 20,
+        "tool_condition": "new"
+      },
+      "values": {
+        "rpm": 12000,
+        "feed_mm_min": 1234.5,
+        "plunge_mm_min": 321.25,
+        "doc_mm": 1.5
+      },
+      "validation": {
+        "basis": "admin_confirmed_good_trial",
+        "trial_id": "synthetic-trial-delta",
+        "tested_at": "2026-01-01T10:00:00Z",
+        "validated_at": "2026-01-02T10:00:00Z",
+        "dependency_binding": "captured_at_validation"
+      },
+      "revision": "sha256:ab7c98363ad2ef342117ee5f24352b8b273eac8eef4b0430f9240f1e4053ba6e"
+    }
+  ],
+  "revision": "sha256:e29b698d23ffb5dd9ee10dbe51d91f13a93c2eb41896cc8222d95376f19cda3e",
+  "generation": 1,
+  "published_at": "2026-01-02T10:01:00Z"
+}

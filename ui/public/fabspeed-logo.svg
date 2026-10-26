@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 1254 1254">
+  <title>FabSpeed — V2</title>
+  <desc>Tuile bleu graphite arrondie, deux anneaux magenta interrompus autour d'un pivot central.</desc>
+  <!-- Reconstructed from fabspeed-logo-v2.png; vector geometry only. -->
+  <rect x="38" y="38" width="1177" height="1177" rx="264" fill="#0c1928" stroke="#496281" stroke-width="35"/>
+  <g fill="#ee46fc">
+    <circle cx="627" cy="627" r="106.5"/>
+    <path d="M179 461 A470 470 0 0 1 583 148 L610 234 A383 383 0 0 0 272 460 Z"/>
+    <path d="M787 176 A470 470 0 0 1 1095 585 L1009 616 A383 383 0 0 0 788 273 Z"/>
+    <path d="M1083 767 A470 470 0 0 1 670 1089 L643 1002 A383 383 0 0 0 986 770 Z"/>
+    <path d="M463 1062 A470 470 0 0 1 158 658 L245 628 A383 383 0 0 0 463 965 Z"/>
+    <path d="M343 558 A290 290 0 0 1 540 345 L573 411 A215 215 0 0 0 426 547 Z"/>
+    <path d="M699 343 A290 290 0 0 1 900 537 L831 570 A215 215 0 0 0 707 422 Z"/>
+    <path d="M912 681 A290 290 0 0 1 715 899 L680 829 A215 215 0 0 0 828 694 Z"/>
+    <path d="M560 903 A290 290 0 0 1 349 710 L423 678 A215 215 0 0 0 548 821 Z"/>
+  </g>
+</svg>

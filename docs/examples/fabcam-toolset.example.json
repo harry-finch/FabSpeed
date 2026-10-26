@@ -1,0 +1,59 @@
+{
+  "kind": "toolset",
+  "format_version": 1,
+  "updated_at": "2026-10-23T08:00:00Z",
+  "payload": [
+    {
+      "id": 1,
+      "name": "UP600 · Ø6 · upcut",
+      "kind": "endmill",
+      "diameter": 6,
+      "flutes": 1,
+      "speed": 15000,
+      "feedRate": 4000.0,
+      "plungeRate": 400,
+      "coolant": "off",
+      "fluteLengthMm": 25,
+      "shankDiameterMm": 6,
+      "comment": "Example tool: values invented for the documentation.",
+      "fsIdentity": { "id": "example/up600", "revision": "1" }
+    },
+    {
+      "id": 2,
+      "name": "DOWN600 · Ø6 · downcut",
+      "kind": "endmill",
+      "diameter": 6,
+      "flutes": 2,
+      "speed": 15000,
+      "feedRate": 4000.0,
+      "plungeRate": 300,
+      "coolant": "off",
+      "fluteLengthMm": 22,
+      "shankDiameterMm": 6,
+      "lengthMm": 55,
+      "fsIdentity": { "id": "example/down600", "revision": "1" }
+    },
+    {
+      "id": 3,
+      "name": "DIA300 · Ø3 · taille diamant",
+      "kind": "endmill",
+      "diameter": 3,
+      "flutes": 0,
+      "coolant": "off",
+      "fluteLengthMm": 10,
+      "shankDiameterMm": 3.175,
+      "fsIdentity": null
+    },
+    {
+      "id": 4,
+      "name": "BALL150 · Ø1.5 · upcut · hémisphérique",
+      "kind": "ball_nose",
+      "diameter": 1.5,
+      "flutes": 2,
+      "coolant": "off",
+      "fluteLengthMm": 6,
+      "shankDiameterMm": 3.175,
+      "fsIdentity": null
+    }
+  ]
+}

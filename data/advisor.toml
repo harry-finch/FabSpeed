@@ -1,0 +1,124 @@
+# Assistant de diagnostic : « Que constatez-vous ? »
+#
+# Chaque symptôme applique des facteurs aux valeurs actuelles (rotation, avance,
+# profondeur), puis le moteur réévalue le résultat (copeau, charges). Les
+# facteurs sont des corrections de départ prudentes, pas des vérités : on
+# corrige un paramètre à la fois quand c'est possible, puis on observe.
+#
+#   rpm_factor / feed_factor / doc_factor   1.0 = inchangé
+#   icon                                     nom d'icône Lucide
+#   categories                               matières concernées (vide = toutes)
+
+[[symptoms]]
+id = "burning"
+label = "Ça fume, le bois brûle"
+icon = "flame"
+cause = "Copeau trop fin : la fraise frotte au lieu de couper."
+explanation = "La chaleur reste dans la fraise et la pièce au lieu de partir avec le copeau. Il faut des copeaux plus épais : plus d'avance ou moins de rotation."
+rpm_factor = 0.85
+feed_factor = 1.1
+advice = [
+  "Vérifiez que la fraise n'est pas émoussée : une fraise usée brûle toujours.",
+  "Une fraise à 1 ou 2 dents produit des copeaux plus épais à avance égale.",
+]
+
+[[symptoms]]
+id = "dust"
+label = "De la poussière fine au lieu de copeaux"
+icon = "wind"
+cause = "Copeau trop fin."
+explanation = "Une « farine » très fine signifie que chaque dent ne prend presque rien. Le copeau doit être visible et franc."
+rpm_factor = 0.9
+feed_factor = 1.1
+advice = ["Le MDF produit naturellement une poussière fine : jugez plutôt à la chaleur de la fraise."]
+
+[[symptoms]]
+id = "melting"
+label = "Le plastique fond ou colle à la fraise"
+icon = "droplets"
+cause = "Échauffement et copeaux mal évacués qui se ressoudent."
+explanation = "Le copeau ramolli bouche la goujure. On baisse la rotation, on garde un copeau épais et on dégage l'outil avec des passes moins profondes."
+rpm_factor = 0.8
+feed_factor = 1.1
+doc_factor = 0.6
+categories = ["plastic"]
+advice = [
+  "Utilisez une fraise 1 dent polie (O-flute) et une soufflette d'air.",
+  "Évitez de repasser dans une rainure déjà usinée.",
+]
+
+[[symptoms]]
+id = "chatter"
+label = "Ça siffle, ça vibre, les flancs ondulent"
+icon = "audio-waveform"
+cause = "Flexion et vibration de la fraise (broutage)."
+explanation = "La fraise plie sous l'effort et rebondit contre la paroi. Une passe moins profonde réduit tout de suite l'effort ; changer un peu la rotation casse la résonance."
+rpm_factor = 0.9
+feed_factor = 0.9
+doc_factor = 0.6
+advice = [
+  "Rentrez la fraise au maximum dans la pince : 20 % de sortie en moins, c'est près de deux fois plus de rigidité.",
+  "Vérifiez le serrage de la pince et de l'écrou.",
+]
+
+[[symptoms]]
+id = "overload"
+label = "La machine force, cogne ou perd des pas"
+icon = "triangle-alert"
+cause = "Effort trop élevé pour le portique ou les moteurs."
+explanation = "Le volume de matière enlevé par seconde demande plus d'effort que la machine n'en supporte. On réduit d'abord la profondeur, puis l'avance."
+feed_factor = 0.8
+doc_factor = 0.6
+advice = [
+  "Préférez un pas latéral plus faible en poche plutôt qu'une rainure pleine largeur.",
+  "Après une perte de pas, refaites l'origine avant de continuer.",
+]
+
+[[symptoms]]
+id = "tearout"
+label = "Éclats sur le dessus de la plaque"
+icon = "layers"
+cause = "Fibres arrachées vers le haut par une fraise upcut."
+explanation = "Une hélice positive (upcut) tire les fibres du dessus, que rien ne retient. Le problème vient surtout de la géométrie de la fraise."
+feed_factor = 0.9
+categories = ["wood", "panel", "composite"]
+advice = [
+  "Utilisez une fraise downcut (hélice négative) ou compression.",
+  "Ou faites une première passe très fine (0,5 mm) pour marquer le contour.",
+]
+
+[[symptoms]]
+id = "rough_finish"
+label = "Mauvais état de surface, traces régulières"
+icon = "scan-line"
+cause = "Avance trop forte pour la finition ou fraise qui fléchit."
+explanation = "Chaque dent laisse une trace : à finition égale, on avance un peu moins vite et on laisse une passe de finition légère."
+feed_factor = 0.85
+advice = ["Ajoutez une passe de finition (opération Finition) avec une surépaisseur de 0,3 à 0,5 mm."]
+
+[[symptoms]]
+id = "part_moves"
+label = "La pièce bouge ou se soulève"
+icon = "move"
+cause = "Le maintien ne résiste pas à l'effort latéral."
+explanation = "L'effort de coupe dépasse ce que tient le maintien. On réduit l'effort (passe plus fine) et on améliore la fixation."
+feed_factor = 0.9
+doc_factor = 0.6
+advice = [
+  "Vissez la pièce dans le martyr ou ajoutez des brides hors des parcours.",
+  "Laissez des onglets (tabs) pour tenir les pièces découpées.",
+  "Une fraise downcut plaque la pièce au lieu de la soulever.",
+]
+
+[[symptoms]]
+id = "tool_broke"
+label = "La fraise a cassé"
+icon = "zap"
+cause = "Effort ou copeau trop élevés, ou bourrage de copeaux."
+explanation = "Une fraise casse rarement sans signe : vibrations, bruit sourd ou copeaux bloqués. On repart nettement plus doucement."
+feed_factor = 0.7
+doc_factor = 0.5
+advice = [
+  "Vérifiez l'évacuation des copeaux (aspiration, rainures profondes).",
+  "Rentrez la fraise au maximum dans la pince.",
+]

@@ -1,0 +1,30 @@
+[package]
+name = "fabspeed-desktop"
+description = "Application de bureau FabSpeed (Tauri) : serveur et interface embarqués, une base par poste"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "fabspeed-desktop"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+sha2 = "0.10"
+
+[dependencies]
+fabspeed-server = { path = "../fabspeed-server" }
+fabspeed-core = { path = "../fabspeed-core" }
+tauri = { version = "2", features = [] }
+tokio = { version = "1", features = ["net", "rt-multi-thread"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[features]
+# Activée par le CLI Tauri pour les builds de distribution.
+custom-protocol = ["tauri/custom-protocol"]

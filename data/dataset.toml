@@ -1,0 +1,7 @@
+# Métadonnées du jeu de données FabSpeed.
+# Incrémenter `revision` à chaque modification des constantes ou des préréglages :
+# elle est exposée dans chaque recommandation (provenance).
+
+revision = "2026-10-23.1"
+description = "Jeu public : ShopBot PRS Standard et deux profils génériques, matières courantes, fraises génériques ; textes traduits en anglais (i18n/en.toml)."
+license = "GPL-3.0-or-later, comme le code. Les données propres à un lab (fiches fournisseur, essais, archives) restent hors du dépôt."

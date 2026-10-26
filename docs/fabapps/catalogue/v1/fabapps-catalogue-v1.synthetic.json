@@ -1,0 +1,116 @@
+{
+  "catalogue_id": "fs-0123456789abcdef0123456789abcdef",
+  "complete": true,
+  "format": "fabapps-catalogue",
+  "generation": 1,
+  "language": "fr",
+  "machines": [
+    {
+      "id": "generic-hobby-router",
+      "kind": "machine_profile",
+      "limits": {
+        "max_feed_mm_min": {
+          "status": "estimate",
+          "value": 5000.0
+        },
+        "rpm_max": {
+          "status": "estimate",
+          "value": 30000.0
+        },
+        "rpm_min": {
+          "status": "estimate",
+          "value": 10000.0
+        },
+        "spindle_power_w": {
+          "status": "estimate",
+          "value": 700.0
+        },
+        "work_area_mm": {
+          "status": "unknown",
+          "value": [
+            800.0,
+            800.0,
+            100.0
+          ]
+        }
+      },
+      "name": "Routeur loisir (type Shapeoko / X-Carve)",
+      "revision": "sha256:c8f55a3f7a21de5b76d173c8d0e608d790013ab766ca885da457488496c2a9a2"
+    }
+  ],
+  "materials": [
+    {
+      "category": "panel",
+      "id": "material/wood.plywood",
+      "kind": "material_profile",
+      "name": "Contreplaqué",
+      "revision": "sha256:551193d035fcbb0c4af976e4bf679d96ccd8e6ee877c08231ddfe590b081698d",
+      "supervision_required": false
+    }
+  ],
+  "presets": [
+    {
+      "context": {
+        "aggressiveness": "normal",
+        "depth_mm": 4.0,
+        "operation": "pocket",
+        "stepover_ratio": 0.4,
+        "stickout_mm": 20.0,
+        "thickness_mm": 12.5,
+        "tool_condition": "new",
+        "workholding": "screws_clamps"
+      },
+      "id": "trial:9fc8bcf7f3e6772518545ba50911976e4e129295bff4ccadc89de94af009f35c",
+      "machine": {
+        "id": "generic-hobby-router",
+        "revision": "sha256:c8f55a3f7a21de5b76d173c8d0e608d790013ab766ca885da457488496c2a9a2"
+      },
+      "material": {
+        "id": "material/wood.plywood",
+        "revision": "sha256:551193d035fcbb0c4af976e4bf679d96ccd8e6ee877c08231ddfe590b081698d"
+      },
+      "name": "Validated preset 9fc8bcf7f3e6",
+      "revision": "sha256:4c1af801ab740b47d0b33bfd8c4a58629e96b645a22e6b468470c6c0529a825c",
+      "status": "validated",
+      "tool": {
+        "id": "generic/flat-6-1f-up",
+        "revision": "sha256:7404489fec635e5c033df1ffe52ce295c0c0dae0f837463bd9ef32427bee8436"
+      },
+      "validation": {
+        "basis": "admin_confirmed_good_trial",
+        "dependency_binding": "captured_at_validation",
+        "tested_at": "2026-01-01T12:00:00Z",
+        "trial_id": "sha256:9fc8bcf7f3e6772518545ba50911976e4e129295bff4ccadc89de94af009f35c",
+        "validated_at": "2026-01-01T12:00:00Z"
+      },
+      "values": {
+        "doc_mm": 1.25,
+        "feed_mm_min": 1200.25,
+        "plunge_mm_min": 300.125,
+        "rpm": 12000.5
+      }
+    }
+  ],
+  "published_at": "2026-01-01T12:00:00Z",
+  "publisher": {
+    "application": "fabspeed",
+    "application_version": "0.9.0-beta.1"
+  },
+  "revision": "sha256:2d40ab2573347504d0bdf78137a2e0beb510aadd26a1e08390363db59c78a96e",
+  "tools": [
+    {
+      "diameter_mm": 6.0,
+      "family": "flat_endmill",
+      "flute_length_mm": 25.0,
+      "flutes": 1,
+      "helix": "upcut",
+      "id": "generic/flat-6-1f-up",
+      "kind": "tool_spec",
+      "name": "Fraise droite Ø6 · 1 dent · upcut",
+      "revision": "sha256:7404489fec635e5c033df1ffe52ce295c0c0dae0f837463bd9ef32427bee8436",
+      "shank_mm": 6.0,
+      "tool_material": "carbide"
+    }
+  ],
+  "version": 1
+}

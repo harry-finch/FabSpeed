@@ -1,0 +1,127 @@
+# Profils machines.
+#
+# Règle : ne jamais inventer une limite réelle. Chaque valeur incertaine est
+# décrite dans [machines.sources.<champ>] avec status = "verified" | "estimate" | "to_verify".
+# L'interface affiche « à vérifier » à côté des valeurs non confirmées.
+#
+# Champs :
+#   rpm_min / rpm_max          plage de rotation de la broche (tr/min)
+#   spindle_power_w            puissance nominale de la broche (W)
+#   spindle_rated_rpm          régime nominal d'une broche à couple constant (optionnel)
+#   max_feed_mm_min            avance de coupe maximale utilisable (mm/min)
+#   max_plunge_mm_min          plongée maximale (optionnel)
+#   max_lateral_force_n        effort latéral admissible estimé (N) : rigidité portique / moteurs
+#   chipload_factor            modulateur de rigidité sur l'avance par dent (1.0 = routeur portique de référence)
+#   controller                 "shopbot" affiche aussi les vitesses en mm/s (commandes MS/VS)
+#   work_area_mm               courses X, Y, Z (mm)
+
+[[machines]]
+id = "shopbot-prs-standard-96x48-2016"
+name = "ShopBot PRS Standard 96×48 (2016)"
+category = "Routeur à portique"
+description = "La ShopBot du fablab : grand format, crémaillère, moteurs pas-à-pas. Profil de test principal de FabSpeed."
+rpm_min = 8000
+rpm_max = 18000
+spindle_power_w = 2200
+spindle_rated_rpm = 18000
+max_feed_mm_min = 6000
+max_lateral_force_n = 180
+chipload_factor = 1.0
+controller = "shopbot"
+work_area_mm = [2464, 1245, 152]
+notes = [
+  "Les réglages historiques du fablab d'origine (ancien wiki) ont été établis sur cette machine.",
+  "Vérifier la plaque de la broche et le paramétrage du variateur pour confirmer la plage de rotation.",
+]
+
+[machines.sources.rpm_min]
+status = "estimate"
+note = "Plus faible rotation utilisée dans le wiki du lab (laiton, 8 000 tr/min). Minimum réel du variateur à confirmer."
+
+[machines.sources.rpm_max]
+status = "estimate"
+note = "Plus forte rotation utilisée dans le wiki du lab (18 000 tr/min), cohérente avec les broches 2,2 kW ShopBot documentées (9 000–18 000 tr/min). À confirmer sur la plaque."
+
+[machines.sources.spindle_power_w]
+status = "to_verify"
+note = "Option broche 2,2 kW (3 CV) courante sur PRS. Type de broche du lab non confirmé (broche ou défonceuse)."
+
+[machines.sources.spindle_rated_rpm]
+status = "estimate"
+note = "Hypothèse : broche à couple constant, puissance nominale atteinte au régime max."
+
+[machines.sources.max_feed_mm_min]
+status = "estimate"
+note = "Avance max employée dans le wiki du lab (6 000 mm/min = 100 mm/s). La fiche PRS5 Standard annonce jusqu'à 360 in/min en coupe ; génération 2016 à confirmer."
+
+[machines.sources.max_lateral_force_n]
+status = "estimate"
+note = "Ordre de grandeur pour un routeur portique à crémaillère (≈180 N). Aucune mesure : sert à des jauges relatives."
+
+[machines.sources.work_area_mm]
+status = "to_verify"
+note = "97 × 49 in de course utile environ ; course Z de 6 in (152 mm) ou 8 in selon la configuration."
+
+[[machines]]
+id = "generic-hobby-router"
+name = "Routeur loisir (type Shapeoko / X-Carve)"
+category = "Routeur à portique"
+description = "Portique léger à courroies ou vis, défonceuse 1/4\" type Makita. Profil générique à adapter."
+rpm_min = 10000
+rpm_max = 30000
+spindle_power_w = 700
+max_feed_mm_min = 5000
+max_lateral_force_n = 80
+chipload_factor = 0.8
+work_area_mm = [800, 800, 100]
+notes = ["Profil générique : ajustez les valeurs à votre machine."]
+
+[machines.sources.rpm_min]
+status = "estimate"
+note = "Défonceuse type Makita RT0701C : réglage 1 ≈ 10 000 tr/min."
+
+[machines.sources.rpm_max]
+status = "estimate"
+note = "Défonceuse type Makita RT0701C : réglage 6 ≈ 30 000 tr/min."
+
+[machines.sources.spindle_power_w]
+status = "estimate"
+note = "Puissance absorbée 710 W ; puissance utile plus faible."
+
+[machines.sources.max_feed_mm_min]
+status = "estimate"
+note = "Ordre de grandeur en coupe pour cette classe de machine."
+
+[machines.sources.max_lateral_force_n]
+status = "estimate"
+note = "Portique léger : ordre de grandeur, aucune mesure."
+
+[[machines]]
+id = "generic-desktop-cnc"
+name = "Petite CNC de bureau (type 3018)"
+category = "CNC de bureau"
+description = "Petite machine à moteur 775 ou broche 300–500 W, cadre aluminium léger. Profil générique très prudent."
+rpm_min = 3000
+rpm_max = 12000
+spindle_power_w = 300
+max_feed_mm_min = 1500
+max_lateral_force_n = 30
+chipload_factor = 0.6
+work_area_mm = [300, 180, 45]
+notes = ["Profil générique : ajustez les valeurs à votre machine.", "Les métaux sont déconseillés sur cette classe de machine."]
+
+[machines.sources.rpm_max]
+status = "estimate"
+note = "Moteur 775 typique ≈ 10 000–12 000 tr/min."
+
+[machines.sources.spindle_power_w]
+status = "estimate"
+note = "Moteur 775 / petite broche."
+
+[machines.sources.max_feed_mm_min]
+status = "estimate"
+note = "Ordre de grandeur pour une machine légère."
+
+[machines.sources.max_lateral_force_n]
+status = "estimate"
+note = "Cadre léger : ordre de grandeur, aucune mesure."

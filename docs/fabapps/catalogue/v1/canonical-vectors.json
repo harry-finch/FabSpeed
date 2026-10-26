@@ -1,0 +1,101 @@
+[
+  {
+    "domain": "vector",
+    "value": null,
+    "canonical_hex": "6e",
+    "revision": "sha256:98707df01faf2d2ba0b8728e9e235d08c63740d2163f4e4b02c115fc45d8cc68"
+  },
+  {
+    "domain": "vector",
+    "value": true,
+    "canonical_hex": "74",
+    "revision": "sha256:ff6840e20c7abec1ff4f8baefe546f472edae4770f78172ee901b4fd24e9d4f7"
+  },
+  {
+    "domain": "vector",
+    "value": false,
+    "canonical_hex": "66",
+    "revision": "sha256:6c3d46cdfe701d56be76cd2481258427f774e0c3ce11d24c47c0220b5d4e0922"
+  },
+  {
+    "domain": "vector",
+    "value": 0,
+    "canonical_hex": "640000000000000000",
+    "revision": "sha256:67c77a3fd0fd191304f653cabe7a5003806f8cec0f23a8f712175a0c3c6d4f80"
+  },
+  {
+    "domain": "vector",
+    "value": -0.0,
+    "canonical_hex": "640000000000000000",
+    "revision": "sha256:67c77a3fd0fd191304f653cabe7a5003806f8cec0f23a8f712175a0c3c6d4f80"
+  },
+  {
+    "domain": "vector",
+    "value": 0.1,
+    "canonical_hex": "643fb999999999999a",
+    "revision": "sha256:393d774ac85babf73ad4e9358042c57e234ed5309ff78b4a046b65d59bee76b0"
+  },
+  {
+    "domain": "vector",
+    "value": 1.25,
+    "canonical_hex": "643ff4000000000000",
+    "revision": "sha256:8d746ab9d490ab020739e92087239850ed9acd3c361e79952089e4c5144c1a06"
+  },
+  {
+    "domain": "vector",
+    "value": 1e-200,
+    "canonical_hex": "6416687e92154ef7ac",
+    "revision": "sha256:9f736a85a3762679503dcf1783991f5f38e90fb0b0b8fa063fd858adc40bf832"
+  },
+  {
+    "domain": "vector",
+    "value": 1e+200,
+    "canonical_hex": "646974e718d7d7625a",
+    "revision": "sha256:4a9044ab35fec08a47f37c948bce48260dc447cb02475a61f968670abb393a1d"
+  },
+  {
+    "domain": "vector",
+    "value": {
+      "z": 2,
+      "a": "é漢"
+    },
+    "canonical_hex": "6f000000000000000273000000000000000161730000000000000005c3a9e6bca27300000000000000017a644000000000000000",
+    "revision": "sha256:8c241b6eeecd91290afd80afeb6158c1a84a8ae9305151daa29cc0bac139607b"
+  },
+  {
+    "domain": "vector",
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "canonical_hex": "610000000000000003643ff0000000000000644000000000000000644008000000000000",
+    "revision": "sha256:6dbbf3af30195a11d293227cbe2d3540fd124119d3fc3c24e1ed0a1756e1be02"
+  },
+  {
+    "domain": "vector",
+    "value": {
+      "missing": null
+    },
+    "canonical_hex": "6f00000000000000017300000000000000076d697373696e676e",
+    "revision": "sha256:25458c535f7dfda5e52ef2e2c9642da44cfcca8bec204ec93af1a147bebf1fb2"
+  },
+  {
+    "domain": "vector",
+    "value": {},
+    "canonical_hex": "6f0000000000000000",
+    "revision": "sha256:220961087307a58daea854f48f3e73890dcf1d09ccfd9589fd084463958aab2a"
+  },
+  {
+    "domain": "vector",
+    "value": {
+      "fraction": 1200.125,
+      "optional": [
+        0.4,
+        "🛠"
+      ]
+    },
+    "canonical_hex": "6f00000000000000027300000000000000086672616374696f6e644092c080000000007300000000000000086f7074696f6e616c610000000000000002643fd999999999999a730000000000000004f09f9ba0",
+    "revision": "sha256:d57ef108a632c543af7c719107c9286440d99f2175a43c9037e5f0cbb8c243d5"
+  }
+]

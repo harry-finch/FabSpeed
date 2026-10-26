@@ -1,0 +1,346 @@
+/* FabSpeed — jetons de design (Professional Workshop UI).
+   Thème sombre de référence, inspiré des applications Creative Cloud :
+   surfaces neutres, couleur réservée à l'état et à l'action. Le thème clair
+   (`data-theme="light"` sur <html>) redéfinit les mêmes jetons avec la même
+   hiérarchie ; les couleurs de sens y sont assombries pour rester lisibles.
+   Aucune couleur en dur dans les composants : tout passe par ces jetons. */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces : du plus sombre au plus clair. */
+  --bg-chrome: #181818;
+  --bg-workspace: #1c1c1c;
+  --bg-panel: #232323;
+  --bg-elevated: #2b2b2b;
+  --bg-control: #161616;
+  --bg-hover: #2f2f2f;
+  --bg-pressed: #363636;
+  --bg-selected: rgb(75 156 245 / 0.16);
+
+  --border: #343434;
+  --border-strong: #444;
+  --divider: #2c2c2c;
+
+  --text-primary: #e8e8e8;
+  --text-secondary: #ababab;
+  --text-muted: #7d7d7d;
+  --text-section: #9a9a9a;
+  --text-disabled: #555;
+  /* Texte sur un bouton principal (fond accent). */
+  --on-accent: #fff;
+
+  /* Sémantique. */
+  --accent: #4b9cf5;
+  --accent-hover: #63abf7;
+  --accent-text: #8cc0ff;
+  --success: #3fb67a;
+  --warning: #e8a33c;
+  --danger: #ef5b5b;
+  --danger-text: #ffb4b4;
+  --info: #4fc3d9;
+  --warning-tint: rgb(232 163 60 / 0.1);
+  --danger-tint: rgb(239 91 91 / 0.12);
+  --info-tint: rgb(79 195 217 / 0.1);
+  --accent-tint: rgb(75 156 245 / 0.12);
+  --success-tint: rgb(63 182 122 / 0.12);
+  --success-border: rgb(63 182 122 / 0.4);
+  /* Fond neutre très léger (étiquettes, pastilles). */
+  --neutral-tint: rgb(255 255 255 / 0.05);
+
+  /* Identité FabSpeed (logo, liseré) : jamais pour un état. */
+  --identity: #ee46fc;
+
+  /* Origine des valeurs. */
+  --origin-lab: #4fc3d9;
+  --origin-calc: #9a9a9a;
+  --origin-user: #b58cff;
+  --origin-derived: #e8a33c;
+  --origin-lab-tint: rgb(79 195 217 / 0.1);
+  --origin-user-tint: rgb(181 140 255 / 0.12);
+
+  /* Jauges : repère du copeau mesuré, graduation nominale, barres neutres. */
+  --gauge-marker: #fff;
+  --gauge-tick: rgb(255 255 255 / 0.35);
+  --meter-neutral: #7a8590;
+  /* Rails : sélecteurs segmentés (bouton actif en relief) et jauges. */
+  --segment-track: #161616;
+  --track: #161616;
+
+  /* Schéma de coupe. */
+  --scene-grid: rgb(255 255 255 / 0.06);
+  --scene-layers: rgb(0 0 0 / 0.12);
+  --scene-removed: #1a1a1a;
+  --scene-pass: #6f6f6f;
+  --scene-table: #555;
+  --scene-dim: #7d7d7d;
+  --scene-collet: #4a4a4a;
+  --scene-collet-edge: #5e5e5e;
+  --scene-shank: #8d96a0;
+  --scene-flute: #b7c0ca;
+  --scene-stripes: #6f7882;
+  --scene-arrow: #cfcfcf;
+  --scene-inset: #161616;
+  --scene-danger: rgb(239 91 91 / 0.35);
+
+  /* Fenêtres et infobulles. */
+  --backdrop: rgb(0 0 0 / 0.5);
+  --tooltip-bg: #383838;
+  --tooltip-text: #ececec;
+  --tooltip-shadow: 0 6px 20px rgb(0 0 0 / 0.45);
+  --scrollbar: #3a3a3a;
+  --swatch-edge: rgb(0 0 0 / 0.25);
+
+  /* Rythme 4 / 8 / 12 / 16 / 24. */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --control-h: 28px;
+  --radius: 4px;
+  --radius-lg: 6px;
+
+  --font: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --fs-xs: 10.5px;
+  --fs-sm: 11.5px;
+  --fs-md: 12.5px;
+  --fs-lg: 14px;
+
+  --shadow-pop: 0 8px 28px rgb(0 0 0 / 0.5), 0 0 0 1px rgb(255 255 255 / 0.05);
+}
+
+/* Thème clair : mêmes niveaux de surface (chrome < espace de travail <
+   panneaux < éléments en relief), texte foncé non pur, couleurs de sens
+   assombries (contraste ≥ 4,5:1 sur les panneaux pour le texte). */
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg-chrome: #e6e6e6;
+  --bg-workspace: #f0f0f0;
+  --bg-panel: #f8f8f8;
+  --bg-elevated: #ffffff;
+  --bg-control: #ffffff;
+  --bg-hover: #e3e3e3;
+  --bg-pressed: #d6d6d6;
+  --bg-selected: rgb(20 115 230 / 0.12);
+
+  --border: #d0d0d0;
+  --border-strong: #b3b3b3;
+  --divider: #dedede;
+
+  --text-primary: #1e1e1e;
+  --text-secondary: #474747;
+  --text-muted: #636363;
+  --text-section: #595959;
+  --text-disabled: #a3a3a3;
+  --on-accent: #fff;
+
+  --accent: #1473e6;
+  --accent-hover: #0d66d0;
+  --accent-text: #0a5bc2;
+  --success: #0e7350;
+  --warning: #975200;
+  --danger: #bb1f28;
+  --danger-text: #a1141b;
+  --info: #096a7e;
+  --warning-tint: rgb(203 116 0 / 0.12);
+  --danger-tint: rgb(201 37 45 / 0.09);
+  --info-tint: rgb(11 116 137 / 0.09);
+  --accent-tint: rgb(20 115 230 / 0.1);
+  --success-tint: rgb(18 128 92 / 0.1);
+  --success-border: rgb(18 128 92 / 0.45);
+  --neutral-tint: rgb(0 0 0 / 0.05);
+
+  --identity: #c03fc4;
+
+  --origin-lab: #096a7e;
+  --origin-calc: #595959;
+  --origin-user: #7240c9;
+  --origin-derived: #975200;
+  --origin-lab-tint: rgb(11 116 137 / 0.1);
+  --origin-user-tint: rgb(114 64 201 / 0.1);
+
+  --gauge-marker: #1e1e1e;
+  --gauge-tick: rgb(0 0 0 / 0.35);
+  --meter-neutral: #8a949e;
+  --segment-track: #e3e3e3;
+  --track: #e0e0e0;
+
+  --scene-grid: rgb(0 0 0 / 0.08);
+  --scene-layers: rgb(0 0 0 / 0.1);
+  --scene-removed: #dcdcdc;
+  --scene-pass: #8a8a8a;
+  --scene-table: #9a9a9a;
+  --scene-dim: #8a8a8a;
+  --scene-collet: #a7adb3;
+  --scene-collet-edge: #8b9197;
+  --scene-shank: #8d96a0;
+  --scene-flute: #b7c0ca;
+  --scene-stripes: #5f6872;
+  --scene-arrow: #4d4d4d;
+  --scene-inset: #e4e4e4;
+  --scene-danger: rgb(201 37 45 / 0.25);
+
+  --backdrop: rgb(0 0 0 / 0.28);
+  --tooltip-bg: #2b2b2b;
+  --tooltip-text: #f2f2f2;
+  --tooltip-shadow: 0 6px 20px rgb(0 0 0 / 0.25);
+  --scrollbar: #c2c2c2;
+  --swatch-edge: rgb(0 0 0 / 0.18);
+
+  --shadow-pop: 0 8px 28px rgb(0 0 0 / 0.16), 0 0 0 1px rgb(0 0 0 / 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-chrome);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: var(--fs-md);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Champs de saisie compacts. */
+.input {
+  height: var(--control-h);
+  background: var(--bg-control);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0 var(--s2);
+  min-width: 0;
+}
+
+.input:hover {
+  border-color: var(--border-strong);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Boutons : primaire / secondaire / discret. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: var(--control-h);
+  padding: 0 var(--s3);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: var(--bg-hover);
+}
+
+.btn:active {
+  background: var(--bg-pressed);
+}
+
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+
+.btn.primary:hover {
+  background: var(--accent-hover);
+}
+
+.btn.quiet {
+  background: transparent;
+  border-color: transparent;
+  color: var(--text-secondary);
+  padding: 0 var(--s2);
+}
+
+.btn.quiet:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.btn.icon {
+  width: var(--control-h);
+  padding: 0;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Barres de défilement discrètes. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

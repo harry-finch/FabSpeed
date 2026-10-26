@@ -1,0 +1,47 @@
+# Rust
+/target/
+
+# Interface
+/ui/node_modules/
+/ui/dist/
+
+# Mot de passe administrateur du poste (haché) : propre à chaque installation
+/data/auth.toml
+
+# Copies de sécurité faites avant une restauration, et dossiers d'échange de la restauration
+/data/backups/
+/data/.restauration-*/
+/data/.precedente-*/
+
+# ---- Données privées du lab : jamais dans le dépôt public -------------------
+# Base du lab (essais, fiches créées ou modifiées dans l'application).
+/data/lab/
+# Fiches fournisseur (pas de droit de redistribution) : à importer dans
+# l'application (Bibliothèque → Fraises → Importer FabCAM).
+/data/tools/cncfraises-*.toml
+/data/tools/*.private.toml
+# Réglages de référence importés d'un lab (wiki…) : le jeu livré part du modèle.
+/data/presets/*.toml
+# Archives de recherche (wiki du lab, bibliothèque FabCAM, échanges).
+/docs/research/
+# Politique de calcul locale d'un poste.
+/data/policy.toml
+
+# Environnement et fichiers temporaires
+.env
+.tmp/
+.DS_Store
+*.log
+
+# Builds de l'application de bureau
+/dist-desktop/
+/crates/fabspeed-desktop/gen/
+
+# Registre privé d'identités, verrou local et récupération après interruption
+/data/.identity-reservations.json
+/data/.fabspeed-writer.lock
+/data/.identity-restore-pending
+/data/.tmp*
+
+# Private source control; never packaged as public base or ordinary backup.
+**/.fabapps-source.json

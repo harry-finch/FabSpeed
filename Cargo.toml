@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+members = ["crates/fabspeed-core", "crates/fabspeed-server", "crates/fabspeed-desktop"]
+
+[workspace.package]
+version = "0.9.0-beta.1"
+edition = "2021"
+rust-version = "1.88"
+authors = ["Stéphane Muller"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/harry-finch/FabSpeed"
+publish = false
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+toml = "0.8"
+thiserror = "2"
+
+# Hachage du mot de passe admin : rapide aussi en debug (tests).
+[profile.dev.package.argon2]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

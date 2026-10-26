@@ -1,0 +1,4727 @@
+{
+  "scope": "Source snapshot only; excludes node_modules, vendored crates, dist and binaries. SPDX declarations are not a binary redistribution clearance.",
+  "packages": [
+    {
+      "ecosystem": "cargo",
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/adler2/2.0.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ahash",
+      "version": "0.8.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ahash/0.8.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "aho-corasick",
+      "version": "1.1.5",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/aho-corasick/1.1.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "alloc-no-stdlib",
+      "version": "2.0.4",
+      "license": "BSD-3-Clause",
+      "source": "https://crates.io/crates/alloc-no-stdlib/2.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "alloc-stdlib",
+      "version": "0.2.4",
+      "license": "BSD-3-Clause",
+      "source": "https://crates.io/crates/alloc-stdlib/0.2.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "android_system_properties",
+      "version": "0.1.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/android_system_properties/0.1.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anstream",
+      "version": "1.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anstream/1.0.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anstyle",
+      "version": "1.0.14",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anstyle/1.0.14",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anstyle-parse",
+      "version": "1.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anstyle-parse/1.0.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anstyle-query",
+      "version": "1.1.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anstyle-query/1.1.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anstyle-wincon",
+      "version": "3.0.11",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anstyle-wincon/3.0.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "anyhow",
+      "version": "1.0.104",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/anyhow/1.0.104",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "argon2",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/argon2/0.5.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "atk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/atk/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "atk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/atk-sys/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/atomic-waker/1.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "autocfg",
+      "version": "1.5.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/autocfg/1.5.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "axum",
+      "version": "0.8.9",
+      "license": "MIT",
+      "source": "https://crates.io/crates/axum/0.8.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "axum-core",
+      "version": "0.5.6",
+      "license": "MIT",
+      "source": "https://crates.io/crates/axum-core/0.5.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64",
+      "version": "0.21.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/base64/0.21.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64",
+      "version": "0.22.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/base64/0.22.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64",
+      "version": "0.23.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/base64/0.23.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "base64ct",
+      "version": "1.8.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/base64ct/1.8.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bit-set",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/bit-set/0.8.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bit-vec",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/bit-vec/0.8.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bitflags",
+      "version": "1.3.2",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/bitflags/1.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bitflags",
+      "version": "2.13.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/bitflags/2.13.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "blake2",
+      "version": "0.10.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/blake2/0.10.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/block-buffer/0.10.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "block-buffer",
+      "version": "0.12.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/block-buffer/0.12.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "block2",
+      "version": "0.6.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/block2/0.6.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "borrow-or-share",
+      "version": "0.2.4",
+      "license": "MIT-0",
+      "source": "https://crates.io/crates/borrow-or-share/0.2.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "brotli",
+      "version": "8.0.4",
+      "license": "BSD-3-Clause AND MIT",
+      "source": "https://crates.io/crates/brotli/8.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "brotli-decompressor",
+      "version": "5.0.3",
+      "license": "BSD-3-Clause/MIT",
+      "source": "https://crates.io/crates/brotli-decompressor/5.0.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bs58",
+      "version": "0.5.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/bs58/0.5.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bumpalo",
+      "version": "3.20.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/bumpalo/3.20.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytecount",
+      "version": "0.6.9",
+      "license": "Apache-2.0/MIT",
+      "source": "https://crates.io/crates/bytecount/0.6.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytemuck",
+      "version": "1.25.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/bytemuck/1.25.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "byteorder",
+      "version": "1.5.0",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/byteorder/1.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "bytes",
+      "version": "1.12.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/bytes/1.12.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cairo-rs",
+      "version": "0.18.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/cairo-rs/0.18.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cairo-sys-rs",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/cairo-sys-rs/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "camino",
+      "version": "1.2.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/camino/1.2.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cargo-platform",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cargo-platform/0.1.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cargo_metadata",
+      "version": "0.19.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/cargo_metadata/0.19.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cargo_toml",
+      "version": "0.22.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/cargo_toml/0.22.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cc",
+      "version": "1.9.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cc/1.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cesu8",
+      "version": "1.1.0",
+      "license": "Apache-2.0/MIT",
+      "source": "https://crates.io/crates/cesu8/1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cfb",
+      "version": "0.7.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/cfb/0.7.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cfg-expr",
+      "version": "0.15.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cfg-expr/0.15.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cfg-if/1.0.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "chrono",
+      "version": "0.4.45",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/chrono/0.4.45",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "clap",
+      "version": "4.6.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/clap/4.6.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "clap_builder",
+      "version": "4.6.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/clap_builder/4.6.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "clap_derive",
+      "version": "4.6.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/clap_derive/4.6.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "clap_lex",
+      "version": "1.1.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/clap_lex/1.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "colorchoice",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/colorchoice/1.0.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "combine",
+      "version": "4.6.9",
+      "license": "MIT",
+      "source": "https://crates.io/crates/combine/4.6.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "const-oid",
+      "version": "0.10.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/const-oid/0.10.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cookie",
+      "version": "0.18.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cookie/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "core-foundation",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/core-foundation/0.10.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "core-foundation-sys",
+      "version": "0.8.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/core-foundation-sys/0.8.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "core-graphics",
+      "version": "0.25.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/core-graphics/0.25.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "core-graphics-types",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/core-graphics-types/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cpufeatures/0.2.17",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cpufeatures",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/cpufeatures/0.3.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crc32fast",
+      "version": "1.5.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/crc32fast/1.5.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crossbeam-channel",
+      "version": "0.5.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/crossbeam-channel/0.5.17",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crossbeam-utils",
+      "version": "0.8.23",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/crossbeam-utils/0.8.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/crypto-common/0.1.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "crypto-common",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/crypto-common/0.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cssparser",
+      "version": "0.36.0",
+      "license": "MPL-2.0",
+      "source": "https://crates.io/crates/cssparser/0.36.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "cssparser-macros",
+      "version": "0.6.1",
+      "license": "MPL-2.0",
+      "source": "https://crates.io/crates/cssparser-macros/0.6.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ctor",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/ctor/0.8.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ctor-proc-macro",
+      "version": "0.0.7",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/ctor-proc-macro/0.0.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "darling",
+      "version": "0.24.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/darling/0.24.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "darling_core",
+      "version": "0.24.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/darling_core/0.24.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "darling_macro",
+      "version": "0.24.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/darling_macro/0.24.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dbus",
+      "version": "0.9.12",
+      "license": "Apache-2.0/MIT",
+      "source": "https://crates.io/crates/dbus/0.9.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "defmt",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/defmt/1.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "defmt-macros",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/defmt-macros/1.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "defmt-parser",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/defmt-parser/1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "deranged",
+      "version": "0.5.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/deranged/0.5.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "derive_more",
+      "version": "2.1.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/derive_more/2.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "derive_more-impl",
+      "version": "2.1.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/derive_more-impl/2.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "digest",
+      "version": "0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/digest/0.10.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "digest",
+      "version": "0.11.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/digest/0.11.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dirs",
+      "version": "6.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/dirs/6.0.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/dirs-sys/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dispatch2",
+      "version": "0.3.1",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/dispatch2/0.3.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "displaydoc",
+      "version": "0.2.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/displaydoc/0.2.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dlopen2",
+      "version": "0.8.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/dlopen2/0.8.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dlopen2_derive",
+      "version": "0.4.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/dlopen2_derive/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dom_query",
+      "version": "0.27.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/dom_query/0.27.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dpi",
+      "version": "0.1.2",
+      "license": "Apache-2.0 AND MIT",
+      "source": "https://crates.io/crates/dpi/0.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dtoa",
+      "version": "1.0.11",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/dtoa/1.0.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dtoa-short",
+      "version": "0.3.5",
+      "license": "MPL-2.0",
+      "source": "https://crates.io/crates/dtoa-short/0.3.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dtor",
+      "version": "0.3.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/dtor/0.3.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dtor-proc-macro",
+      "version": "0.0.6",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/dtor-proc-macro/0.0.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dunce",
+      "version": "1.0.5",
+      "license": "CC0-1.0 OR MIT-0 OR Apache-2.0",
+      "source": "https://crates.io/crates/dunce/1.0.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "dyn-clone",
+      "version": "1.0.20",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/dyn-clone/1.0.20",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "email_address",
+      "version": "0.2.9",
+      "license": "MIT",
+      "source": "https://crates.io/crates/email_address/0.2.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "embed-resource",
+      "version": "3.0.12",
+      "license": "MIT",
+      "source": "https://crates.io/crates/embed-resource/3.0.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "embed_plist",
+      "version": "1.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/embed_plist/1.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "equivalent",
+      "version": "1.0.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/equivalent/1.0.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "erased-serde",
+      "version": "0.4.10",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/erased-serde/0.4.10",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "errno",
+      "version": "0.3.14",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/errno/0.3.14",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fancy-regex",
+      "version": "0.16.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/fancy-regex/0.16.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fastrand",
+      "version": "2.5.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/fastrand/2.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/fdeflate/0.3.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "field-offset",
+      "version": "0.3.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/field-offset/0.3.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "find-msvc-tools",
+      "version": "0.1.15",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/find-msvc-tools/0.1.15",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "flate2",
+      "version": "1.1.10",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/flate2/1.1.10",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fluent-uri",
+      "version": "0.3.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/fluent-uri/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fnv",
+      "version": "1.0.7",
+      "license": "Apache-2.0 / MIT",
+      "source": "https://crates.io/crates/fnv/1.0.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foldhash",
+      "version": "0.2.0",
+      "license": "Zlib",
+      "source": "https://crates.io/crates/foldhash/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foreign-types",
+      "version": "0.5.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/foreign-types/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foreign-types-macros",
+      "version": "0.2.4",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/foreign-types-macros/0.2.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "foreign-types-shared",
+      "version": "0.3.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/foreign-types-shared/0.3.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/form_urlencoded/1.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fraction",
+      "version": "0.15.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/fraction/0.15.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "fs2",
+      "version": "0.4.3",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/fs2/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-channel",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-channel/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-core",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-core/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-executor",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-executor/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-io",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-io/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-macro",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-macro/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-sink",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-sink/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-task",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-task/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-util",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/futures-util/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdk/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdk-pixbuf",
+      "version": "0.18.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdk-pixbuf/0.18.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdk-pixbuf-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdk-pixbuf-sys/0.18.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdk-sys/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdkwayland-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdkwayland-sys/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdkx11",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdkx11/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gdkx11-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gdkx11-sys/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "generic-array",
+      "version": "0.14.7",
+      "license": "MIT",
+      "source": "https://crates.io/crates/generic-array/0.14.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "getrandom",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/getrandom/0.2.17",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "getrandom",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/getrandom/0.3.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "getrandom",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/getrandom/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gio",
+      "version": "0.18.4",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gio/0.18.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gio-sys",
+      "version": "0.18.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gio-sys/0.18.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glib",
+      "version": "0.18.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/glib/0.18.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glib-macros",
+      "version": "0.18.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/glib-macros/0.18.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glib-sys",
+      "version": "0.18.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/glib-sys/0.18.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "glob",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/glob/0.3.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gobject-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gobject-sys/0.18.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gtk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gtk/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gtk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gtk-sys/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "gtk3-macros",
+      "version": "0.18.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/gtk3-macros/0.18.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.12.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/hashbrown/0.12.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/hashbrown/0.17.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "heck",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/heck/0.4.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "heck",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/heck/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hex",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/hex/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "html5ever",
+      "version": "0.38.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/html5ever/0.38.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/http/1.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body",
+      "version": "1.1.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/http-body/1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body-util",
+      "version": "0.1.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/http-body-util/0.1.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "httparse",
+      "version": "1.10.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/httparse/1.10.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "httpdate",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/httpdate/1.0.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hybrid-array",
+      "version": "0.4.15",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/hybrid-array/0.4.15",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper",
+      "version": "1.12.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/hyper/1.12.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper-util",
+      "version": "0.1.21",
+      "license": "MIT",
+      "source": "https://crates.io/crates/hyper-util/0.1.21",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iana-time-zone",
+      "version": "0.1.65",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/iana-time-zone/0.1.65",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "iana-time-zone-haiku",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/iana-time-zone-haiku/0.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ico",
+      "version": "0.5.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/ico/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_collections",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_collections/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_locale_core",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_locale_core/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_normalizer",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_normalizer/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_normalizer_data",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_normalizer_data/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_properties",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_properties/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_properties_data",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_properties_data/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "icu_provider",
+      "version": "2.4.0",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/icu_provider/2.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ident_case",
+      "version": "1.0.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/ident_case/1.0.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "idna",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/idna/1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "idna_adapter",
+      "version": "1.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/idna_adapter/1.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "indexmap",
+      "version": "1.9.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/indexmap/1.9.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "indexmap",
+      "version": "2.14.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/indexmap/2.14.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "infer",
+      "version": "0.19.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/infer/0.19.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ipnet",
+      "version": "2.12.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ipnet/2.12.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "is_terminal_polyfill",
+      "version": "1.70.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/is_terminal_polyfill/1.70.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "itoa",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/itoa/1.0.18",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "javascriptcore-rs",
+      "version": "1.1.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/javascriptcore-rs/1.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "javascriptcore-rs-sys",
+      "version": "1.1.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/javascriptcore-rs-sys/1.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jiff",
+      "version": "0.2.38",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/jiff/0.2.38",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jiff-core",
+      "version": "0.1.1",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/jiff-core/0.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jiff-static",
+      "version": "0.2.38",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/jiff-static/0.2.38",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jiff-tzdb",
+      "version": "0.1.9",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/jiff-tzdb/0.1.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jiff-tzdb-platform",
+      "version": "0.1.3",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/jiff-tzdb-platform/0.1.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni",
+      "version": "0.21.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/jni/0.21.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni-sys",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/jni-sys/0.3.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni-sys",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/jni-sys/0.4.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni-sys-macros",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/jni-sys-macros/0.4.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "js-sys",
+      "version": "0.3.106",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/js-sys/0.3.106",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "json-patch",
+      "version": "3.0.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/json-patch/3.0.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jsonptr",
+      "version": "0.6.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/jsonptr/0.6.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jsonschema",
+      "version": "0.33.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/jsonschema/0.33.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "keyboard-types",
+      "version": "0.7.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/keyboard-types/0.7.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "lazy_static",
+      "version": "1.5.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/lazy_static/1.5.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libappindicator",
+      "version": "0.9.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/libappindicator/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libappindicator-sys",
+      "version": "0.9.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/libappindicator-sys/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libc",
+      "version": "0.2.191",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/libc/0.2.191",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libdbus-sys",
+      "version": "0.2.7",
+      "license": "Apache-2.0/MIT",
+      "source": "https://crates.io/crates/libdbus-sys/0.2.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libloading",
+      "version": "0.7.4",
+      "license": "ISC",
+      "source": "https://crates.io/crates/libloading/0.7.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "libredox",
+      "version": "0.1.25",
+      "license": "MIT",
+      "source": "https://crates.io/crates/libredox/0.1.25",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "linux-raw-sys",
+      "version": "0.12.1",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/linux-raw-sys/0.12.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "litemap",
+      "version": "0.8.3",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/litemap/0.8.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "lock_api",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/lock_api/0.4.14",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "log",
+      "version": "0.4.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/log/0.4.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "markup5ever",
+      "version": "0.38.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/markup5ever/0.38.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "matchers",
+      "version": "0.2.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/matchers/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "matchit",
+      "version": "0.8.4",
+      "license": "MIT AND BSD-3-Clause",
+      "source": "https://crates.io/crates/matchit/0.8.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "memchr",
+      "version": "2.8.3",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/memchr/2.8.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "memoffset",
+      "version": "0.9.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/memoffset/0.9.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "mime",
+      "version": "0.3.17",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/mime/0.3.17",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "mime_guess",
+      "version": "2.0.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/mime_guess/2.0.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "source": "https://crates.io/crates/miniz_oxide/0.8.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "source": "https://crates.io/crates/miniz_oxide/0.9.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "mio",
+      "version": "1.2.4",
+      "license": "MIT",
+      "source": "https://crates.io/crates/mio/1.2.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "muda",
+      "version": "0.19.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/muda/0.19.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ndk",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ndk/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ndk-sys",
+      "version": "0.6.0+11769913",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ndk-sys/0.6.0+11769913",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "new_debug_unreachable",
+      "version": "1.0.6",
+      "license": "MIT",
+      "source": "https://crates.io/crates/new_debug_unreachable/1.0.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "nu-ansi-term",
+      "version": "0.50.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/nu-ansi-term/0.50.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-bigint",
+      "version": "0.4.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-bigint/0.4.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-cmp",
+      "version": "0.1.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/num-cmp/0.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-complex",
+      "version": "0.4.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-complex/0.4.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-conv",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-conv/0.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-integer",
+      "version": "0.1.47",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-integer/0.1.47",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-iter",
+      "version": "0.1.46",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-iter/0.1.46",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-rational",
+      "version": "0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-rational/0.4.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num-traits/0.2.19",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num_enum",
+      "version": "0.7.6",
+      "license": "BSD-3-Clause OR MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num_enum/0.7.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "num_enum_derive",
+      "version": "0.7.6",
+      "license": "BSD-3-Clause OR MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/num_enum_derive/0.7.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2",
+      "version": "0.6.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/objc2/0.6.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-app-kit",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-app-kit/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-cloud-kit",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-cloud-kit/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-data",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-data/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-foundation",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-foundation/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-graphics",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-graphics/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-image",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-image/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-location",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-location/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-core-text",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-core-text/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-encode",
+      "version": "4.1.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/objc2-encode/4.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-exception-helper",
+      "version": "0.1.1",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-exception-helper/0.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-foundation",
+      "version": "0.3.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/objc2-foundation/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-io-surface",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-io-surface/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-quartz-core",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-quartz-core/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-ui-kit",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-ui-kit/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-user-notifications",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-user-notifications/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-web-kit",
+      "version": "0.3.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/objc2-web-kit/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "once_cell",
+      "version": "1.21.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/once_cell/1.21.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "once_cell_polyfill",
+      "version": "1.70.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/once_cell_polyfill/1.70.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "option-ext",
+      "version": "0.2.0",
+      "license": "MPL-2.0",
+      "source": "https://crates.io/crates/option-ext/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "outref",
+      "version": "0.5.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/outref/0.5.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pango",
+      "version": "0.18.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/pango/0.18.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pango-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/pango-sys/0.18.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/parking_lot/0.12.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/parking_lot_core/0.9.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "password-hash",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/password-hash/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/percent-encoding/2.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "phf",
+      "version": "0.13.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/phf/0.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "phf_codegen",
+      "version": "0.13.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/phf_codegen/0.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "phf_generator",
+      "version": "0.13.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/phf_generator/0.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "phf_macros",
+      "version": "0.13.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/phf_macros/0.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "phf_shared",
+      "version": "0.13.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/phf_shared/0.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/pin-project-lite/0.2.17",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "pkg-config",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/pkg-config/0.3.34",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "plist",
+      "version": "1.10.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/plist/1.10.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "png",
+      "version": "0.17.16",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/png/0.17.16",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "png",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/png/0.18.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "portable-atomic",
+      "version": "1.15.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/portable-atomic/1.15.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "portable-atomic-util",
+      "version": "0.2.8",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/portable-atomic-util/0.2.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "potential_utf",
+      "version": "0.1.6",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/potential_utf/0.1.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "powerfmt",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/powerfmt/0.2.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "precomputed-hash",
+      "version": "0.1.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/precomputed-hash/0.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro-crate",
+      "version": "1.3.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro-crate/1.3.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro-crate",
+      "version": "2.0.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro-crate/2.0.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro-crate",
+      "version": "3.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro-crate/3.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro-error",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro-error/1.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro-error-attr",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro-error-attr/1.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/proc-macro2/1.0.107",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "quick-xml",
+      "version": "0.42.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/quick-xml/0.42.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "quote",
+      "version": "1.0.47",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/quote/1.0.47",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "r-efi",
+      "version": "5.3.0",
+      "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "source": "https://crates.io/crates/r-efi/5.3.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "r-efi",
+      "version": "6.0.0",
+      "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "source": "https://crates.io/crates/r-efi/6.0.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rand_core",
+      "version": "0.6.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/rand_core/0.6.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "source": "https://crates.io/crates/raw-window-handle/0.6.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "redox_syscall",
+      "version": "0.5.18",
+      "license": "MIT",
+      "source": "https://crates.io/crates/redox_syscall/0.5.18",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "redox_users",
+      "version": "0.5.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/redox_users/0.5.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ref-cast",
+      "version": "1.0.27",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ref-cast/1.0.27",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ref-cast-impl",
+      "version": "1.0.27",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/ref-cast-impl/1.0.27",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "referencing",
+      "version": "0.33.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/referencing/0.33.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "regex",
+      "version": "1.13.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/regex/1.13.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "regex-automata",
+      "version": "0.4.18",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/regex-automata/0.4.18",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/regex-syntax/0.8.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "reqwest",
+      "version": "0.13.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/reqwest/0.13.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rust-embed",
+      "version": "8.13.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/rust-embed/8.13.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rust-embed-impl",
+      "version": "8.13.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/rust-embed-impl/8.13.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rust-embed-utils",
+      "version": "8.13.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/rust-embed-utils/8.13.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/rustc-hash/2.1.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustc_version",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/rustc_version/0.4.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustix",
+      "version": "1.1.5",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/rustix/1.1.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustversion",
+      "version": "1.0.23",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/rustversion/1.0.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ryu",
+      "version": "1.0.23",
+      "license": "Apache-2.0 OR BSL-1.0",
+      "source": "https://crates.io/crates/ryu/1.0.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "same-file",
+      "version": "1.0.6",
+      "license": "Unlicense/MIT",
+      "source": "https://crates.io/crates/same-file/1.0.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schemars",
+      "version": "0.8.22",
+      "license": "MIT",
+      "source": "https://crates.io/crates/schemars/0.8.22",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schemars",
+      "version": "0.9.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/schemars/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schemars",
+      "version": "1.2.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/schemars/1.2.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schemars_derive",
+      "version": "0.8.22",
+      "license": "MIT",
+      "source": "https://crates.io/crates/schemars_derive/0.8.22",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/scopeguard/1.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "selectors",
+      "version": "0.36.1",
+      "license": "MPL-2.0",
+      "source": "https://crates.io/crates/selectors/0.36.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "semver",
+      "version": "1.0.28",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/semver/1.0.28",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde/1.0.229",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde-untagged",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde-untagged/0.1.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_core",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_core/1.0.229",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_derive/1.0.229",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_derive_internals",
+      "version": "0.29.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_derive_internals/0.29.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_json",
+      "version": "1.0.154",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_json/1.0.154",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_path_to_error",
+      "version": "0.1.20",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_path_to_error/0.1.20",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_repr",
+      "version": "0.1.21",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_repr/0.1.21",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_spanned",
+      "version": "0.6.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_spanned/0.6.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_spanned",
+      "version": "1.1.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_spanned/1.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/serde_urlencoded/0.7.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_with",
+      "version": "3.24.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_with/3.24.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serde_with_macros",
+      "version": "3.24.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serde_with_macros/3.24.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serialize-to-javascript",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serialize-to-javascript/0.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "serialize-to-javascript-impl",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/serialize-to-javascript-impl/0.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "servo_arc",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/servo_arc/0.4.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sha2",
+      "version": "0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/sha2/0.10.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sha2",
+      "version": "0.11.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/sha2/0.11.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sharded-slab",
+      "version": "0.1.7",
+      "license": "MIT",
+      "source": "https://crates.io/crates/sharded-slab/0.1.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "shlex",
+      "version": "2.0.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/shlex/2.0.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "signal-hook-registry",
+      "version": "1.4.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/signal-hook-registry/1.4.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "license": "MIT",
+      "source": "https://crates.io/crates/simd-adler32/0.3.10",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "siphasher",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/siphasher/1.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "slab",
+      "version": "0.4.12",
+      "license": "MIT",
+      "source": "https://crates.io/crates/slab/0.4.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "smallvec",
+      "version": "1.16.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/smallvec/1.16.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "socket2",
+      "version": "0.6.5",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/socket2/0.6.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "softbuffer",
+      "version": "0.4.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/softbuffer/0.4.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "soup3",
+      "version": "0.5.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/soup3/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "soup3-sys",
+      "version": "0.5.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/soup3-sys/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/stable_deref_trait/1.2.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "string_cache",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/string_cache/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "string_cache_codegen",
+      "version": "0.6.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/string_cache_codegen/0.6.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "strsim",
+      "version": "0.11.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/strsim/0.11.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "subtle",
+      "version": "2.6.1",
+      "license": "BSD-3-Clause",
+      "source": "https://crates.io/crates/subtle/2.6.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "swift-rs",
+      "version": "1.0.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/swift-rs/1.0.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "syn",
+      "version": "1.0.109",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/syn/1.0.109",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "syn",
+      "version": "2.0.119",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/syn/2.0.119",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "syn",
+      "version": "3.0.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/syn/3.0.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "license": "Apache-2.0",
+      "source": "https://crates.io/crates/sync_wrapper/1.0.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "synstructure",
+      "version": "0.14.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/synstructure/0.14.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "system-deps",
+      "version": "6.2.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/system-deps/6.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tao",
+      "version": "0.35.3",
+      "license": "Apache-2.0",
+      "source": "https://crates.io/crates/tao/0.35.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tao-macros",
+      "version": "0.1.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/tao-macros/0.1.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "target-lexicon",
+      "version": "0.12.16",
+      "license": "Apache-2.0 WITH LLVM-exception",
+      "source": "https://crates.io/crates/target-lexicon/0.12.16",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri",
+      "version": "2.11.6",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri/2.11.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-build",
+      "version": "2.6.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-build/2.6.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-codegen",
+      "version": "2.6.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-codegen/2.6.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-macros",
+      "version": "2.6.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-macros/2.6.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-runtime",
+      "version": "2.11.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-runtime/2.11.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-runtime-wry",
+      "version": "2.11.4",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-runtime-wry/2.11.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-utils",
+      "version": "2.9.3",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tauri-utils/2.9.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-winres",
+      "version": "0.3.7",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tauri-winres/0.3.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tempfile",
+      "version": "3.27.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/tempfile/3.27.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tendril",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/tendril/0.5.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/thiserror/1.0.69",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/thiserror/2.0.21",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/thiserror-impl/1.0.69",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thiserror-impl",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/thiserror-impl/2.0.21",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "thread_local",
+      "version": "1.1.10",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/thread_local/1.1.10",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "time",
+      "version": "0.3.55",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/time/0.3.55",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "time-core",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/time-core/0.1.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "time-macros",
+      "version": "0.2.32",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/time-macros/0.2.32",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tinystr",
+      "version": "0.8.5",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/tinystr/0.8.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tinyvec",
+      "version": "1.13.3",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/tinyvec/1.13.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio",
+      "version": "1.54.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tokio/1.54.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-macros",
+      "version": "2.7.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tokio-macros/2.7.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-util",
+      "version": "0.7.20",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tokio-util/0.7.20",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml",
+      "version": "0.8.23",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml/0.8.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml",
+      "version": "0.9.12+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml/0.9.12+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml",
+      "version": "1.1.8+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml/1.1.8+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_datetime",
+      "version": "0.6.11",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_datetime/0.6.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_datetime",
+      "version": "0.7.5+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_datetime/0.7.5+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_datetime",
+      "version": "1.1.2+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_datetime/1.1.2+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_edit",
+      "version": "0.19.15",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_edit/0.19.15",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_edit",
+      "version": "0.20.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_edit/0.20.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_edit",
+      "version": "0.22.27",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_edit/0.22.27",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_edit",
+      "version": "0.25.17+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_edit/0.25.17+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_parser",
+      "version": "1.1.5+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_parser/1.1.5+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_write",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_write/0.1.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "toml_writer",
+      "version": "1.1.3+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/toml_writer/1.1.3+spec-1.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower",
+      "version": "0.5.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tower/0.5.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-http",
+      "version": "0.6.11",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tower-http/0.6.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tower-layer/0.3.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-service",
+      "version": "0.3.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tower-service/0.3.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing",
+      "version": "0.1.44",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tracing/0.1.44",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-attributes",
+      "version": "0.1.31",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tracing-attributes/0.1.31",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tracing-core/0.1.36",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-log",
+      "version": "0.2.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tracing-log/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tracing-subscriber",
+      "version": "0.3.23",
+      "license": "MIT",
+      "source": "https://crates.io/crates/tracing-subscriber/0.3.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tray-icon",
+      "version": "0.24.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/tray-icon/0.24.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "try-lock",
+      "version": "0.2.5",
+      "license": "MIT",
+      "source": "https://crates.io/crates/try-lock/0.2.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "typeid",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/typeid/1.0.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "typenum",
+      "version": "1.20.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/typenum/1.20.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unic-char-property",
+      "version": "0.9.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/unic-char-property/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unic-char-range",
+      "version": "0.9.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/unic-char-range/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unic-common",
+      "version": "0.9.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/unic-common/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unic-ucd-ident",
+      "version": "0.9.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/unic-ucd-ident/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unic-ucd-version",
+      "version": "0.9.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/unic-ucd-version/0.9.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicase",
+      "version": "2.10.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/unicase/2.10.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-ident",
+      "version": "1.0.27",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "source": "https://crates.io/crates/unicode-ident/1.0.27",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/unicode-segmentation/1.13.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "url",
+      "version": "2.5.8",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/url/2.5.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "urlpattern",
+      "version": "0.3.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/urlpattern/0.3.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/utf8_iter/1.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/utf8parse/0.2.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "uuid",
+      "version": "1.26.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/uuid/1.26.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "uuid-simd",
+      "version": "0.8.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/uuid-simd/0.8.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "valuable",
+      "version": "0.1.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/valuable/0.1.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "version-compare",
+      "version": "0.2.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/version-compare/0.2.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "version_check",
+      "version": "0.9.5",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/version_check/0.9.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "vsimd",
+      "version": "0.8.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/vsimd/0.8.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "vswhom",
+      "version": "0.1.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/vswhom/0.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "vswhom-sys",
+      "version": "0.1.3",
+      "license": "MIT",
+      "source": "https://crates.io/crates/vswhom-sys/0.1.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "walkdir",
+      "version": "2.5.0",
+      "license": "Unlicense/MIT",
+      "source": "https://crates.io/crates/walkdir/2.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "want",
+      "version": "0.3.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/want/0.3.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasi",
+      "version": "0.11.1+wasi-snapshot-preview1",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/wasi/0.11.1+wasi-snapshot-preview1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasip2",
+      "version": "1.0.4+wasi-0.2.12",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/wasip2/1.0.4+wasi-0.2.12",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-bindgen",
+      "version": "0.2.129",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-bindgen/0.2.129",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-bindgen-futures",
+      "version": "0.4.79",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-bindgen-futures/0.4.79",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-bindgen-macro",
+      "version": "0.2.129",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-bindgen-macro/0.2.129",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-bindgen-macro-support",
+      "version": "0.2.129",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-bindgen-macro-support/0.2.129",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-bindgen-shared",
+      "version": "0.2.129",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-bindgen-shared/0.2.129",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wasm-streams",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/wasm-streams/0.5.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "web-sys",
+      "version": "0.3.106",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/web-sys/0.3.106",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "web_atoms",
+      "version": "0.2.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/web_atoms/0.2.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webkit2gtk",
+      "version": "2.0.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/webkit2gtk/2.0.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webkit2gtk-sys",
+      "version": "2.0.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/webkit2gtk-sys/2.0.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webview2-com",
+      "version": "0.38.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/webview2-com/0.38.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webview2-com-macros",
+      "version": "0.8.1",
+      "license": "MIT",
+      "source": "https://crates.io/crates/webview2-com-macros/0.8.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webview2-com-sys",
+      "version": "0.38.2",
+      "license": "MIT",
+      "source": "https://crates.io/crates/webview2-com-sys/0.38.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winapi",
+      "version": "0.3.9",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/winapi/0.3.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/winapi-i686-pc-windows-gnu/0.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winapi-util",
+      "version": "0.1.11",
+      "license": "Unlicense OR MIT",
+      "source": "https://crates.io/crates/winapi-util/0.1.11",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "license": "MIT/Apache-2.0",
+      "source": "https://crates.io/crates/winapi-x86_64-pc-windows-gnu/0.4.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "window-vibrancy",
+      "version": "0.6.0",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/window-vibrancy/0.6.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows",
+      "version": "0.61.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows/0.61.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-collections",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-collections/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-core",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-core/0.61.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-core",
+      "version": "0.62.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-core/0.62.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-future",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-future/0.2.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-implement",
+      "version": "0.60.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-implement/0.60.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-interface",
+      "version": "0.59.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-interface/0.59.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-link",
+      "version": "0.1.3",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-link/0.1.3",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-link",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-link/0.2.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-numerics",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-numerics/0.2.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-result",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-result/0.3.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-result",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-result/0.4.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-strings",
+      "version": "0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-strings/0.4.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-strings",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-strings/0.5.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.45.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-sys/0.45.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.59.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-sys/0.59.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-sys/0.61.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-targets",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-targets/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-targets",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-targets/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-threading",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-threading/0.1.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-version",
+      "version": "0.1.7",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows-version/0.1.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_aarch64_gnullvm/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_aarch64_gnullvm/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_aarch64_msvc",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_aarch64_msvc/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_aarch64_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_aarch64_msvc/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_i686_gnu",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_i686_gnu/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_i686_gnu",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_i686_gnu/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_i686_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_i686_gnullvm/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_i686_msvc",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_i686_msvc/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_i686_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_i686_msvc/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_gnu",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_gnu/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_gnu",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_gnu/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_gnullvm/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_gnullvm/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_msvc",
+      "version": "0.42.2",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_msvc/0.42.2",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows_x86_64_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://crates.io/crates/windows_x86_64_msvc/0.52.6",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winnow",
+      "version": "0.5.40",
+      "license": "MIT",
+      "source": "https://crates.io/crates/winnow/0.5.40",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winnow",
+      "version": "0.7.15",
+      "license": "MIT",
+      "source": "https://crates.io/crates/winnow/0.7.15",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winnow",
+      "version": "1.0.4",
+      "license": "MIT",
+      "source": "https://crates.io/crates/winnow/1.0.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "winreg",
+      "version": "0.56.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/winreg/0.56.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wit-bindgen",
+      "version": "0.57.1",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/wit-bindgen/0.57.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "writeable",
+      "version": "0.6.4",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/writeable/0.6.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "wry",
+      "version": "0.55.1",
+      "license": "Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/wry/0.55.1",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "x11",
+      "version": "2.21.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/x11/2.21.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "x11-dl",
+      "version": "2.21.0",
+      "license": "MIT",
+      "source": "https://crates.io/crates/x11-dl/2.21.0",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "yoke",
+      "version": "0.8.4",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/yoke/0.8.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "yoke-derive",
+      "version": "0.8.4",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/yoke-derive/0.8.4",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerocopy",
+      "version": "0.8.63",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/zerocopy/0.8.63",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerocopy-derive",
+      "version": "0.8.63",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "source": "https://crates.io/crates/zerocopy-derive/0.8.63",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerofrom",
+      "version": "0.1.8",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/zerofrom/0.1.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerofrom-derive",
+      "version": "0.1.8",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/zerofrom-derive/0.1.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerotrie",
+      "version": "0.2.5",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/zerotrie/0.2.5",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerovec",
+      "version": "0.11.9",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/zerovec/0.11.9",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zerovec-derive",
+      "version": "0.11.7",
+      "license": "Unicode-3.0",
+      "source": "https://crates.io/crates/zerovec-derive/0.11.7",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zlib-rs",
+      "version": "0.6.8",
+      "license": "Zlib",
+      "source": "https://crates.io/crates/zlib-rs/0.6.8",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "zmij",
+      "version": "1.0.23",
+      "license": "MIT",
+      "source": "https://crates.io/crates/zmij/1.0.23",
+      "distribution": "registry reference only; package code not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@fontsource-variable/inter",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "source": "https://registry.npmjs.org/@fontsource-variable/inter/-/inter-5.3.0.tgz",
+      "integrity": "sha512-OupL48va4JNofb97w6NYeF9S7W/kHNKM0Er8Dem5nqi4jeOLrVJDoE8tZEpnMJmtkvNbB1EIPPwHcdkF6b1oUA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+      "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+      "integrity": "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+      "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz",
+      "integrity": "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+      "integrity": "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@lucide/svelte",
+      "version": "1.61.0",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/@lucide/svelte/-/svelte-1.61.0.tgz",
+      "integrity": "sha512-Vwj4ADoKgVogLFpEbXv2PS2hh2fj+aAqPuiNydI88Zkyb1l7veL4fXgRrOX3tgpESHhIGneNkSSYhHupvCBshg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@oxc-project/types",
+      "version": "0.155.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@oxc-project/types/-/types-0.155.0.tgz",
+      "integrity": "sha512-SeE8JPwW1xs1tHeNycjUtUBdhorRa8o4jlvjwk49R7/Z291i+4DQa7JJIgOm/TaYQZx+QrPQbVJ/9c8dMIZN8Q==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-android-arm-eabi",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-android-arm-eabi/-/binding-android-arm-eabi-1.2.15.tgz",
+      "integrity": "sha512-aLcgK9gIJ3YRvrrtfSBbRa27F5WrpiTaPulnFpsHPxpUHgFlSgnU4854MHwoRGEBhfRJDWCS2WQ7lIjskE9Olw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-android-arm64/-/binding-android-arm64-1.2.15.tgz",
+      "integrity": "sha512-xD7DdZCrbThKuxNg7ooQmvp07ys4J/pnSEMTG3/OdOWl6daC67m/Q4fL78sRHMxTH/N4fGUbYhcPM0MF5WFHkg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.2.15.tgz",
+      "integrity": "sha512-m2WuQ6r0B4OTYxyPpNLtXaMRbRDUbG8YQV2Q3KTdSSK8Th6KHCnC8jVCJt8bvYeSB5WivkkNbc85mKadaSdOxA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.2.15.tgz",
+      "integrity": "sha512-5RtnsHM36nodM9WbMy+zip0LGS/G+y5wro5RHrpOlr4ac24+1zSi9kiV2MP1myZeZ/ifEHfulQcWjnAXzc2C2A==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.2.15.tgz",
+      "integrity": "sha512-g3l09pyFqhu+135JKkbkwiKGQmwU5hUMUPJ4VdBADvuqR8d33L6H578rh8m7rtxbdp+VmX/+nzI7nvhSZlzpUQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.2.15.tgz",
+      "integrity": "sha512-nIe3VugI97nGQtspPxDqA4sXMUpeiocKIP/CqpY/u/vgbT+alX+cVxu1C/oVBPKg4feNTmYovE91v4DgXvXNwQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.15.tgz",
+      "integrity": "sha512-iTBjXx+B5QSvgI89lJfmqh4wTh8NabR1YZIIN3hNx4zSG0EVfVqkOvLulNpG4251pbd6/IAmZ/LefVk1Y4rPhw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.15.tgz",
+      "integrity": "sha512-uN26XOnVR7rqQupG3V9oAG2EGGatWjcJHOeDOHUFCh4TBWmP2tHTFoVN13aYbwfm0aHqJAEmcwhAu6sooIjfqQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-1.2.15.tgz",
+      "integrity": "sha512-9nWkcdd+H+XhaA3fQIwpHnKIrfx/PQ6rO0pivr78Og07tXlUlctBBJoEYLPfhTmCR/QxEVdn6uPjHV5SymPhdw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-1.2.15.tgz",
+      "integrity": "sha512-Ggh0ciFjLwIusLSLz7LZYEaGdxOAUJXI+Qu5JCbhPJJHEt8vP+IjRATTJheiJsdzzTYgUiHUiw3X1Ea3ZpMBdA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.15.tgz",
+      "integrity": "sha512-FHg60rS6DBePAYZ9X9F67x+JObFdmgn6tupA1C/a3B+CufFmTD4mX+e8M75tCiAO3foR/6xwVBI0KQiI7sn/rw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.15.tgz",
+      "integrity": "sha512-/cvV/7v5VGz/moiz0XKRj2dE8DzsKyhIu1KpOvJGPjRywg3yscON889UGvAe8zfiJLHup7VLjBduoGWi3HusWQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.2.15.tgz",
+      "integrity": "sha512-MyzC5Hrv/sm+Z7TSGKP/j8001RO2xQm1zOpCNVL4j0cY/VhBZviludA2YFQ7i4lH6ZAXxQm0lcMdBzM+99mE7w==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.15.tgz",
+      "integrity": "sha512-+PgYiS+AH5omy6L45ZLxybasauJaj3M8buoT83D+nzPmCayXlxUV9hydhciCKVyIg0B/v0BtXPDE1uGqNwCPpg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.15.tgz",
+      "integrity": "sha512-HFZd2QNQYn1JbIi+Hpd7H+r/lkWxcfIu28nirZ6eCn2LafuvmExMlb/P96Sfx5tf7pPArw39IdhmCF8vmV+NhQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+      "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@sveltejs/acorn-typescript",
+      "version": "1.0.13",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@sveltejs/acorn-typescript/-/acorn-typescript-1.0.13.tgz",
+      "integrity": "sha512-wgKggnhZVL9Bfx1OaKKTrYY9BFRk6C8UAkQNUcIv1+llzYrIqy+RZm5HPKzn0NpEBvTVhTqB4kQyllZywsRBRQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@sveltejs/load-config",
+      "version": "0.2.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@sveltejs/load-config/-/load-config-0.2.3.tgz",
+      "integrity": "sha512-VT3qmUb8pRV2QrZjd8iAmtg8lf4W0TIjZbvXtz5MKei/q96teWZgGJyyidJzOjzZzvdq616eSRVeMYIQChUTAQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@sveltejs/vite-plugin-svelte",
+      "version": "7.3.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-7.3.1.tgz",
+      "integrity": "sha512-ZPsLN8B1e/En+Ak5s4V7srFDT532oS0qieLsQwu63NGKsS+iAjoO2Js1BochlHlglcU+Pt7WAO3C5Ee+4f6gVA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tsconfig/svelte",
+      "version": "5.0.8",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@tsconfig/svelte/-/svelte-5.0.8.tgz",
+      "integrity": "sha512-UkNnw1/oFEfecR8ypyHIQuWYdkPvHiwcQ78sh+ymIiYoF+uc5H1UBetbjyqT+vgGJ3qQN6nhucJviX6HesWtKQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz",
+      "integrity": "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "acorn",
+      "version": "8.19.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/acorn/-/acorn-8.19.0.tgz",
+      "integrity": "sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "aria-query",
+      "version": "5.3.1",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/aria-query/-/aria-query-5.3.1.tgz",
+      "integrity": "sha512-Z/ZeOgVl7bcSYZ/u/rh0fOpvEpq//LZmdbkXyc7syVzjPAhfOa9ebsdTSjEBDU4vs5nC98Kfduj1uFo0qyET3g==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axobject-query",
+      "version": "4.1.0",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz",
+      "integrity": "sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chokidar",
+      "version": "4.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz",
+      "integrity": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "clsx",
+      "version": "2.1.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+      "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "deepmerge",
+      "version": "4.3.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz",
+      "integrity": "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+      "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "devalue",
+      "version": "5.9.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/devalue/-/devalue-5.9.4.tgz",
+      "integrity": "sha512-sPAT4pztbu6586/hrhOnMKS17IJrvg12mXiSPSS3W5qDeN2RGgvZ0diZCm31dBbnevfVmujNO3IM2wrS4Y2Rhg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "esm-env",
+      "version": "1.2.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/esm-env/-/esm-env-1.2.2.tgz",
+      "integrity": "sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "esrap",
+      "version": "2.4.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/esrap/-/esrap-2.4.0.tgz",
+      "integrity": "sha512-CQPcneEHw/czj32uwQC52nYnax8H4SXt25FCM+LIwGZ49cMIxpOj3bP8wmzcI+Z0HIy5KkClaPhRLfCySzwHPA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "is-reference",
+      "version": "3.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz",
+      "integrity": "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+      "integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-android-arm64/-/lightningcss-android-arm64-1.33.0.tgz",
+      "integrity": "sha512-gEpRTalKdosp4Bb8qWtc2iOgE5SeIHlpS1up9bFq2wAyYhl1UdTObYiHe98zEM9SQvSoqQZ1IQD0JNpg3Ml5pg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz",
+      "integrity": "sha512-Sciaz8eenNTKn9b3t7+xr0ipTp9YxKQY4npwQ3mrRuL0BAVHBLyZxofhaKBAVtzmtRZ/zTyo0/to4B1uWG/Djg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.33.0.tgz",
+      "integrity": "sha512-Z5UPAxzrjlWNNyGy6i65cJzzvgJ5D3T6wMvs+gWpY9d7qRhANrxqAp6LhxIgZhWEw18RfJTGcRxjuLIBr+m8XQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.33.0.tgz",
+      "integrity": "sha512-QQM/Ti/hQajJwCY+RiWuCZ9sdtI/XQk7nDK5vC8kkdwixezOlDgvDx7+RT+QjK6FcFT4MpsuoBnHIo/O3StRRg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.33.0.tgz",
+      "integrity": "sha512-N7FVBe6iS24MlM6R/4RBTxGhQheZGs7tiQ9U32UtF75NzP5Q7xWPRqLBCKxlRQRk3rY1jCIPLzx7WzOhuUIRLQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.33.0.tgz",
+      "integrity": "sha512-j2v/itmy4HlNxlc6voKXYgBqNi0Ng2LShg4z7GufpEgs05P+2suBVyi9I6YHq5uoVFx9ETin3eCEhLVyXGQnKg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.33.0.tgz",
+      "integrity": "sha512-yiO5ROMuYQgXbC60yjZU5CYSFZGKXL0HFATXt9mHJn1+zW55oCtMI9NfcVhYLMFDL7gV7oBPon/EmMMGg2OvtQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+      "integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz",
+      "integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.33.0.tgz",
+      "integrity": "sha512-1K+MPfLSFVpphzpdbfkhlWk6wBrTObBzS2T6db10PNOZgR9GoVsAWzwNyuhUYYbTp23j+4RrncfujZ4uAzXvwA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz",
+      "integrity": "sha512-OlEICDx/Xl0FqSp4bry8zFnCvGpig3Gl4gCquvYwHuqJKEC1+n9NgDniFvqHGmMv1ZkqDJrDqKKSykTDX+ehuA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "locate-character",
+      "version": "3.0.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/locate-character/-/locate-character-3.0.0.tgz",
+      "integrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "magic-string",
+      "version": "1.4.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/magic-string/-/magic-string-1.4.3.tgz",
+      "integrity": "sha512-z12OxmaPGE0F4xlpGdjuAUckipLpQlTAuAmyGhNoD7ODpYUzvDfvtxUbjM/jwznyP178oju/KDdyi220wNJ0RQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mri",
+      "version": "1.2.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz",
+      "integrity": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+      "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "obug",
+      "version": "2.2.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/obug/-/obug-2.2.1.tgz",
+      "integrity": "sha512-XrsrhT5sybtKI6wakr2SPOlGZWWYbUXZ7a0jT8/QOeAPau+1X/bSegNe5YR75oJmEZQbKningirmGOEJCIk61Q==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss",
+      "version": "8.5.31",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/postcss/-/postcss-8.5.31.tgz",
+      "integrity": "sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "readdirp",
+      "version": "4.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz",
+      "integrity": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rolldown",
+      "version": "1.2.15",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.15.tgz",
+      "integrity": "sha512-6odND+fel5zVw3I4Yc2e69gvguDnX0CAAGiNDZSq4ik5WUcaLrkD2GLuog0XcODbor31hZ5ayEMgVDno+KPV5g==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sade",
+      "version": "1.8.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz",
+      "integrity": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "source": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+      "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "svelte",
+      "version": "5.57.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/svelte/-/svelte-5.57.2.tgz",
+      "integrity": "sha512-1YiPCAXT0Ct6g1vOMmSLa0Nsc3QRMvtDF32ihgglGVrugIuIK38RyDiFNXVDhtQ81TJjSO57NdMw6DyYLqSGDQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "svelte-check",
+      "version": "4.7.7",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/svelte-check/-/svelte-check-4.7.7.tgz",
+      "integrity": "sha512-Ge2IMdeTpbJuzNFGRiiMg0RWgbScysKQu7xwcyFJ22+DU9F5nPX51+Q3gHmGqRxYQMx2knreVWt5oCtfe0vf2g==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "svelte/node_modules/magic-string",
+      "version": "0.30.21",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",
+      "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "typescript",
+      "version": "6.0.3",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz",
+      "integrity": "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vite",
+      "version": "8.3.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/vite/-/vite-8.3.5.tgz",
+      "integrity": "sha512-z1YpjieJ9g0ebTmQpLBv/oq9E3F9EIlOe+7LahW8SrE3LTiG3udBRUXQOlYXP9b+IC2q2phHeVxj9xGlw34OEQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vitefu",
+      "version": "1.1.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/vitefu/-/vitefu-1.1.3.tgz",
+      "integrity": "sha512-ub4okH7Z5KLjb6hDyjqrGXqWtWvoYdU3IGm/NorpgHncKoLTCfRIbvlhBm7r0YstIaQRYlp4yEbFqDcKSzXSSg==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "zimmerframe",
+      "version": "1.1.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/zimmerframe/-/zimmerframe-1.1.5.tgz",
+      "integrity": "sha512-msJxIvYDYcoNL+PJsu+7qmpDWsYmAxTY+2TNYXXF0hzBzBk0BMecOqDOG/EckUoKCuKwObfbugIl8QpqHDXeFA==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    }
+  ]
+}

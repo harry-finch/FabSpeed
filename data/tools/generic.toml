@@ -1,0 +1,132 @@
+# Fraises génériques livrées avec FabSpeed.
+#
+# Géométries courantes en atelier (diamètre, dents, longueur utile, type),
+# sans données fournisseur : aucune rotation constructeur, aucune référence
+# commerciale. Mesurez votre fraise et ajustez la fiche (Bibliothèque), ou
+# importez votre bibliothèque FabCAM. Les réglages de coupe ne sont PAS ici :
+# ils viennent du calcul, puis des essais notés au lab (data/lab/trials/).
+# `flutes` absent = nombre de dents inconnu (denture taille diamant).
+
+[[tools]]
+id = "generic/flat-3.175-2f-up"
+name = "Fraise droite Ø3,175 · 2 dents · upcut"
+family = "flat_endmill"
+helix = "upcut"
+diameter_mm = 3.175
+flutes = 2
+flute_length_mm = 12
+shank_mm = 3.175
+notes = ["Queue 1/8\". Évacue bien les copeaux ; le dessus de la pièce peut s'arracher."]
+
+[[tools]]
+id = "generic/flat-3.175-2f-down"
+name = "Fraise droite Ø3,175 · 2 dents · downcut"
+family = "flat_endmill"
+helix = "downcut"
+diameter_mm = 3.175
+flutes = 2
+flute_length_mm = 12
+shank_mm = 3.175
+notes = ["Hélice négative : dessus net, copeaux poussés vers le bas."]
+
+[[tools]]
+id = "generic/flat-6-1f-up"
+name = "Fraise droite Ø6 · 1 dent · upcut"
+family = "flat_endmill"
+helix = "upcut"
+diameter_mm = 6
+flutes = 1
+flute_length_mm = 25
+shank_mm = 6
+recommended_materials = ["material/wood.plywood", "material/wood.mdf", "material/wood.softwood", "material/plastic.pmma", "material/plastic.pom", "material/plastic.hdpe", "material/metal.aluminium"]
+notes = ["Une dent : gros copeaux, idéale pour les plastiques et l'aluminium."]
+
+[[tools]]
+id = "generic/flat-6-2f-down"
+name = "Fraise droite Ø6 · 2 dents · downcut"
+family = "flat_endmill"
+helix = "downcut"
+diameter_mm = 6
+flutes = 2
+flute_length_mm = 22
+shank_mm = 6
+recommended_materials = ["material/wood.plywood", "material/wood.mdf", "material/composite.hpl"]
+notes = ["Hélice négative : dessus net, copeaux poussés vers le bas."]
+
+[[tools]]
+id = "generic/compression-6-2f"
+name = "Fraise à compression Ø6 · 2 dents"
+family = "compression"
+helix = "compression"
+diameter_mm = 6
+flutes = 2
+flute_length_mm = 22
+upcut_length_mm = 6
+shank_mm = 6
+recommended_materials = ["material/wood.plywood", "material/wood.mdf", "material/composite.hpl"]
+notes = ["Dessus et dessous nets en panneau. Partie upcut de 6 mm : à vérifier sur votre fraise."]
+
+[[tools]]
+id = "generic/flat-8-1f-up"
+name = "Fraise droite Ø8 · 1 dent · upcut"
+family = "flat_endmill"
+helix = "upcut"
+diameter_mm = 8
+flutes = 1
+flute_length_mm = 25
+shank_mm = 8
+
+[[tools]]
+id = "generic/ball-3.175-2f"
+name = "Fraise hémisphérique Ø3,175 · 2 dents"
+family = "ball_nose"
+helix = "upcut"
+diameter_mm = 3.175
+flutes = 2
+flute_length_mm = 12
+shank_mm = 3.175
+notes = ["Rayon 1,5875 mm. Pour le relief 3D et les rainures à fond rond."]
+
+[[tools]]
+id = "generic/vbit-90-12.7"
+name = "Fraise à graver en V 90° · Ø12,7"
+family = "v_bit"
+helix = "straight"
+diameter_mm = 12.7
+flutes = 2
+flute_length_mm = 7
+tip_angle_deg = 90
+shank_mm = 6.35
+notes = ["Gravure, chanfreins et V-carving."]
+
+[[tools]]
+id = "generic/vbit-60-6"
+name = "Fraise à graver en V 60° · Ø6"
+family = "v_bit"
+helix = "straight"
+diameter_mm = 6
+flutes = 2
+flute_length_mm = 6
+tip_angle_deg = 60
+shank_mm = 6
+
+[[tools]]
+id = "generic/surfacing-25-2f"
+name = "Fraise à surfacer Ø25 · 2 dents"
+family = "surfacing"
+helix = "straight"
+diameter_mm = 25
+flutes = 2
+flute_length_mm = 6
+shank_mm = 6.35
+notes = ["Pour surfacer le martyr ou le dessus d'un brut."]
+
+[[tools]]
+id = "generic/diamond-cut-3"
+name = "Fraise taille diamant Ø3"
+family = "diamond_cut"
+helix = "straight"
+diameter_mm = 3
+flute_length_mm = 10
+shank_mm = 3.175
+notes = ["Fibre de verre, circuits imprimés, composites.", "Nombre de dents non défini : pas de calcul d'avance par dent."]
