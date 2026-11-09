@@ -7,6 +7,8 @@ jobs:
   installer:
     runs-on: windows-2022
     steps:
+      # The release manifest hashes LF files; keep Windows from converting them to CRLF.
+      - run: git config --global core.autocrlf false
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
           persist-credentials: false
