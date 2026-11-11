@@ -4113,6 +4113,15 @@
     },
     {
       "ecosystem": "npm",
+      "name": "@lucasmarkes/hairline",
+      "version": "0.5.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@lucasmarkes/hairline/-/hairline-0.5.1.tgz",
+      "integrity": "sha512-zjY3bdMC3As/+enKitZ1X+D1HjpesQiAKzG1sbCFsOrb5xIuJEoepkJTBIO4jmFh6JXOQlGGylhV71nr9ipNpQ==",
+      "distribution": "registry reference only; package code/assets not vendored"
+    },
+    {
+      "ecosystem": "npm",
       "name": "@lucide/svelte",
       "version": "1.61.0",
       "license": "ISC",

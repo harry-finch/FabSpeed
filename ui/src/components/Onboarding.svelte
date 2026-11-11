@@ -9,7 +9,10 @@
   import { fmtLength, fmtSpeed, lengthUnit, num, speedUnit } from '../lib/format';
   import { rpmUnit } from '../lib/labels';
   import OriginTag from './OriginTag.svelte';
+  import Figure from './Figure.svelte';
+  import { made } from '../lib/figures';
 
+  const endmill = made('endmill');
   const MIN_LENGTH = 8; // identique à MIN_PASSWORD_LEN côté serveur
   const STEPS = ['welcome', 'password', 'machine', 'result'] as const;
 
@@ -61,6 +64,7 @@
 
   <div class="body">
     {#if STEPS[step] === 'welcome'}
+      <div class="hero"><Figure figure={endmill} label={t('figure.endmill')} surface="elevated" play /></div>
       <p class="lead">{t('onboarding.welcome.lead')}</p>
       <p>{t('onboarding.welcome.text')}</p>
       <div class="choices">
@@ -241,6 +245,11 @@
   .body p {
     margin: 0;
     color: var(--text-secondary);
+  }
+
+  .hero {
+    display: grid;
+    justify-items: center;
   }
 
   .body p.lead {

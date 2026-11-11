@@ -4,6 +4,7 @@
   import { store } from '../lib/store.svelte';
   import OriginTag from './OriginTag.svelte';
   import { t } from '../lib/i18n.svelte';
+  import { tip } from '../lib/tip';
 
   let { onClose }: { onClose: () => void } = $props();
   let dialog: HTMLDialogElement;
@@ -16,7 +17,7 @@
 <dialog bind:this={dialog} onclose={onClose} aria-labelledby="help-title">
   <header>
     <h2 id="help-title">{t('help.title')}</h2>
-    <button class="btn quiet icon" type="button" aria-label={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
+    <button class="btn quiet icon" type="button" aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
   </header>
   <div class="body">
     <ol class="steps">

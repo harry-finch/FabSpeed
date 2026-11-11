@@ -4,6 +4,7 @@
   import { X, ShieldCheck } from '@lucide/svelte';
   import { store, type AuthDialog } from '../lib/store.svelte';
   import { t } from '../lib/i18n.svelte';
+  import { tip } from '../lib/tip';
 
   const MIN_LENGTH = 8; // identique à MIN_PASSWORD_LEN côté serveur
 
@@ -44,7 +45,7 @@
 <dialog bind:this={dialog} onclose={() => !done && store.closeAuthDialog(false)} aria-labelledby="auth-title">
   <header>
     <h2 id="auth-title"><ShieldCheck size={16} /> {t(`auth.title.${mode}`)}</h2>
-    <button class="btn quiet icon" type="button" aria-label={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
+    <button class="btn quiet icon" type="button" aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
   </header>
   <form
     class="body"

@@ -644,6 +644,8 @@ const fr = {
     goodTrial: "{n} essai réussi",
     goodTrials: "{n} essais réussis",
     noTrialsFilter: "Aucun essai pour ce filtre.",
+    noMatch: "Aucune fiche ne correspond à cette recherche.",
+    clearSearch: "Effacer la recherche",
     noTrialsYet: "Aucun essai pour l’instant.",
     noTrialsHint: "Après un usinage, cliquez sur « Noter un essai » dans le calcul. Les essais « Bon » deviennent les réglages de référence du lab.",
     record: "Fiche",
@@ -666,6 +668,8 @@ const fr = {
     restore: "Rétablir la fiche d'origine",
   },
   toolEditor: {
+    previewNote: "Aperçu aux proportions de la fiche.",
+    previewGuess: "En pointillé : queue ou longueur totale non renseignées.",
     openLink: "Ouvrir la page du fournisseur",
     aboveSpindle: "Rotation min du fournisseur au-dessus de la broche de « {machine} » ({max} {unit} max) : fraise prévue pour une broche plus rapide. À vitesse réduite, le copeau s’épaissit : prudence.",
     namePlaceholder: "Fraise Ø6 2 dents upcut",
@@ -926,6 +930,14 @@ const fr = {
     next: "Suivant",
     start: "Commencer",
     createMachine: "Créer ma machine",
+  },
+  figure: {
+    plug: "Une fiche débranchée devant sa prise.",
+    loupe: "Une loupe posée sur une feuille vierge.",
+    sieve: "Trois tamis empilés, vides.",
+    plot: "Un graphique sans données.",
+    endmill: "Une fraise deux dents, posée sur le côté.",
+    toolPreview: "Aperçu de la fraise décrite par la fiche, à ses proportions.",
   },
 };
 

@@ -4,6 +4,7 @@
   import { api, type SharingResponse, type SharingSettings, type SharingKind, type SharingChoice, type SharingPreview } from '../../lib/api';
   import { store } from '../../lib/store.svelte';
   import { t } from '../../lib/i18n.svelte';
+  import { tip } from '../../lib/tip';
   import { dateTime } from '../../lib/labels';
   let dialog = $state<HTMLDialogElement>();
   let response = $state<SharingResponse | null>(null);
@@ -78,7 +79,7 @@
   {#if error && !dialog?.open}<p class="error" role="alert">{error}</p>{/if}
 </section>
 <dialog bind:this={dialog} onclose={close} aria-labelledby="sharing-title">
-  <header><h2 id="sharing-title">{t('sharing.title')}</h2><button class="btn quiet icon" type="button" aria-label={t('sharing.close')} onclick={() => dialog?.close()}><X size={16} /></button></header>
+  <header><h2 id="sharing-title">{t('sharing.title')}</h2><button class="btn quiet icon" type="button" aria-label={t('sharing.close')} use:tip={t('sharing.close')} onclick={() => dialog?.close()}><X size={16} /></button></header>
   <div class="body">
     <p>{t('sharing.intro')}</p>
     {#if status}
@@ -143,8 +144,8 @@
   .sharing-entry { display:flex; align-items:center; flex-wrap:wrap; gap:var(--s3); padding:var(--s3); margin-bottom:var(--s3); border:1px solid var(--border); border-radius:var(--radius-lg); background:var(--bg-panel); }
   .sharing-entry div { flex:1; min-width:200px; } h3 { display:flex; align-items:center; gap:6px; margin:0; font-size:var(--fs-sm); }
   p { margin:var(--s2) 0; } .hint, .sharing-entry p { font-size:var(--fs-sm); color:var(--text-secondary); }
-  dialog { width:min(760px, calc(100vw - 32px)); max-height:calc(100dvh - 32px); padding:0; color:var(--text); background:var(--bg-panel); border:1px solid var(--border); border-radius:var(--radius-lg); }
-  dialog::backdrop { background: #0008; } header { display:flex; align-items:center; justify-content:space-between; padding:var(--s3); border-bottom:1px solid var(--border); } h2 { margin:0; font-size:var(--fs-lg); }
+  dialog { width:min(760px, calc(100vw - 32px)); max-height:calc(100dvh - 32px); padding:0; color:var(--text-primary); background:var(--bg-panel); border:1px solid var(--border); border-radius:var(--radius-lg); }
+  dialog::backdrop { background: var(--backdrop); } header { display:flex; align-items:center; justify-content:space-between; padding:var(--s3); border-bottom:1px solid var(--border); } h2 { margin:0; font-size:var(--fs-lg); }
   .body { padding:var(--s3); } fieldset { border:0; padding:0; margin:var(--s3) 0; min-width:0; } label { display:block; font-size:var(--fs-sm); }
   .check { display:flex; align-items:center; gap:var(--s2); margin:var(--s2) 0; } .path { width:100%; box-sizing:border-box; margin-top:var(--s1); }
   .group { border-top:1px solid var(--border); padding:var(--s2) 0; } summary { cursor:pointer; font-size:var(--fs-sm); } .choices { max-height:240px; overflow:auto; } .choice { padding:var(--s1) 0; }

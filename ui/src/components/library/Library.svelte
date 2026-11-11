@@ -2,7 +2,9 @@
   // Module « Bibliothèque » : machines, fraises et essais du lab.
   // Navigation à gauche, liste au centre, fiche sélectionnée dans l'inspecteur.
   import './editor.css';
-  import { Cpu, Search, Plus, ClipboardList, Check, TriangleAlert, CircleX, FlaskConical, Lock, ShieldCheck, Layers, Database, FileSpreadsheet } from '@lucide/svelte';
+  import { Cpu, Search, Plus, ClipboardList, Check, TriangleAlert, CircleX, FlaskConical, Lock, ShieldCheck, Layers, Database, FileSpreadsheet, X } from '@lucide/svelte';
+  import { loupe, plot, sieve } from '@lucasmarkes/hairline';
+  import Figure from '../Figure.svelte';
   import ToolGlyph from '../ToolGlyph.svelte';
   import ToolEditor from './ToolEditor.svelte';
   import MachineEditor from './MachineEditor.svelte';
@@ -71,6 +73,22 @@
   const materialName = (id: string) => c?.materials.find((m) => m.id === id)?.name ?? id;
   const ICON = { good: Check, adjust: TriangleAlert, failed: CircleX } as const;
 </script>
+
+<!-- Liste vidée par la recherche : la figure s'efface si une fiche en création montre déjà la sienne. -->
+{#snippet noMatch()}
+  <div class="empty">
+    {#if !(lib.section === 'tools' && lib.creating)}<Figure figure={loupe} label={t('figure.loupe')} />{/if}
+    <p>{t('library.noMatch')}</p>
+    <button
+      class="btn"
+      type="button"
+      onclick={() => {
+        query = '';
+        familyFilter = '';
+      }}><X size={14} /> {t('library.clearSearch')}</button
+    >
+  </div>
+{/snippet}
 
 <div class="lib">
   <nav class="nav" aria-label={t('library.title')}>
@@ -151,6 +169,8 @@
             </span>
             <span class="layer {layer}" use:tip={layerText(layer).hint}>{layerText(layer).label}</span>
           </button>
+        {:else}
+          {@render noMatch()}
         {/each}
       {:else if lib.section === 'materials'}
         {#each materials as m (m.id)}
@@ -163,6 +183,8 @@
             </span>
             <span class="layer {layer}" use:tip={layerText(layer).hint}>{layerText(layer).label}</span>
           </button>
+        {:else}
+          {@render noMatch()}
         {/each}
       {:else if lib.section === 'tools'}
         {#each tools as tool (tool.id)}
@@ -187,6 +209,8 @@
             {#if n}<span class="tested" use:tip={t(n > 1 ? 'library.goodTrials' : 'library.goodTrial', { n })}><FlaskConical size={12} /> {n}</span>{/if}
             <span class="layer {layer}" use:tip={layerText(layer).hint}>{layerText(layer).label}</span>
           </button>
+        {:else}
+          {@render noMatch()}
         {/each}
       {:else}
         {#each trials as tr (tr.id)}
@@ -201,7 +225,8 @@
           </button>
         {:else}
           <div class="empty">
-            <ClipboardList size={22} />
+            <!-- Une figure par état : recherche, filtre, rien encore. -->
+            {#if q}<Figure figure={loupe} label={t('figure.loupe')} />{:else if outcomeFilter || materialFilter}<Figure figure={sieve} label={t('figure.sieve')} />{:else}<Figure figure={plot} label={t('figure.plot')} />{/if}
             <p>{outcomeFilter || materialFilter || q ? t('library.noTrialsFilter') : t('library.noTrialsYet')}</p>
             <p class="muted">{t('library.noTrialsHint')}</p>
           </div>

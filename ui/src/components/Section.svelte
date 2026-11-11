@@ -124,4 +124,10 @@
     flex-direction: column;
     gap: var(--s2);
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .toggle :global(.chev) {
+      transition: none;
+    }
+  }
 </style>

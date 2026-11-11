@@ -5,6 +5,7 @@
   import { X, ShieldCheck, Check, TriangleAlert, CircleX } from '@lucide/svelte';
   import { store } from '../lib/store.svelte';
   import { t } from '../lib/i18n.svelte';
+  import { tip } from '../lib/tip';
   import { dateTime, modeLabel, operationLabel, outcomeLabel, rpmUnit } from '../lib/labels';
   import { fmtLength, fmtSpeed, lengthUnit, num, speedUnit } from '../lib/format';
 
@@ -41,7 +42,7 @@
 <dialog bind:this={dialog} onclose={onClose} aria-labelledby="validate-title">
   <header>
     <h2 id="validate-title"><ShieldCheck size={16} /> {t('validate.title')}</h2>
-    <button class="btn quiet icon" type="button" aria-label={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
+    <button class="btn quiet icon" type="button" aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
   </header>
   {#if trial}
     <form

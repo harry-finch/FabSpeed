@@ -50,7 +50,7 @@
 <dialog bind:this={dialog} onclose={onClose} aria-labelledby="trial-title">
   <header>
     <h2 id="trial-title">{t('readout.record')}</h2>
-    <button class="btn quiet icon" type="button" aria-label={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
+    <button class="btn quiet icon" type="button" aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog.close()}><X size={16} /></button>
   </header>
   {#if input}
     <form

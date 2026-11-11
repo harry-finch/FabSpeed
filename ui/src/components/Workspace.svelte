@@ -1,6 +1,8 @@
 <script lang="ts">
   // Zone centrale : contexte, valeurs à reporter, schéma à l'échelle, santé de la coupe.
-  import { Copy, FlaskConical, Calculator, RotateCcw, Ban, LoaderCircle, WifiOff, ClipboardPen, Lock, ShieldCheck } from '@lucide/svelte';
+  import { Copy, FlaskConical, Calculator, RotateCcw, Ban, LoaderCircle, ClipboardPen, Lock, ShieldCheck } from '@lucide/svelte';
+  import { plug } from '@lucasmarkes/hairline';
+  import Figure from './Figure.svelte';
   import ReadoutCell from './ReadoutCell.svelte';
   import CutScene from './CutScene.svelte';
   import ChipGauge from './ChipGauge.svelte';
@@ -133,7 +135,7 @@
   </header>
 
   {#if !store.online}
-    <div class="empty"><WifiOff size={22} /><p>{t('api.offline')}</p><p class="muted">{t('ws.startServer')} <code>cargo run -p fabspeed-server</code></p></div>
+    <div class="empty"><Figure figure={plug} label={t('figure.plug')} /><p>{t('api.offline')}</p><p class="muted">{t('ws.startServer')} <code>cargo run -p fabspeed-server</code></p></div>
   {:else if store.error && !reco}
     <div class="empty"><Ban size={22} /><p>{store.error}</p></div>
   {:else if reco && reco.status === 'unsupported'}
@@ -281,6 +283,7 @@
         stepoverRatio={v.stepover_ratio}
         operation={store.setup.operation}
         materialColor={material ? swatch(material.id, material.category) : '#999'}
+        chipState={m.chip_zone.state}
         feedLabel={`${fmtSpeed(v.feed_mm_min, u)} ${speedUnit(u)}`}
         rpmLabel={`${num(v.rpm, 0)} ${rpmUnit()}`}
         units={u}
@@ -397,6 +400,12 @@
   @keyframes spin {
     to {
       transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.spin) {
+      animation: none;
     }
   }
 

@@ -16,6 +16,8 @@ to FabSpeed and does not depend on another FabApps application's licence.
 | FabSpeed V2 logo, generated icons and five README screenshots | Maintainer confirmed ownership or permission for publication. The canonical SVG contains paths/shapes, without an embedded font or external image. |
 | Inter licence notice | [SIL Open Font License 1.1](ui/public/licenses/Inter-OFL-1.1.txt), preserved verbatim from the locked `@fontsource-variable/inter` package. |
 | Lucide licence notice | [ISC](ui/public/licenses/Lucide-ISC.txt), preserved verbatim from the locked `@lucide/svelte` package, including its existing copyright notices. |
+| Hairline licence notice | [MIT](ui/public/licenses/Hairline-MIT.txt), preserved verbatim from the locked `@lucasmarkes/hairline` package. The same licence covers `ui/public/illustrations/kernel.js`, the figure engine copied unchanged from the `hairline-create` skill of that project. |
+| Line figures | `branding/illustrations/endmill.js` and its exact copy `ui/public/illustrations/endmill.js`: project work under GPL-3.0-or-later, written for the Hairline engine. |
 
 The rights-holder declaration is distinct from technical validation. It does not
 certify the physical safety of any cutting settings or grant rights to private
@@ -45,7 +47,7 @@ notices and provide the corresponding covered sources as required. See
 [Mozilla's MPL distribution FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/).
 Do not relabel dependency code under the project's GPL declaration.
 
-The shipped Inter/Lucide notices remain available for frontend builds. This
+The shipped Inter/Lucide/Hairline notices remain available for frontend builds. This
 source inventory is **not a complete binary redistribution notice bundle**.
 Before shipping executables or compiled frontend assets, inventory what is
 actually included, resolve all relevant licences and attribution, and provide

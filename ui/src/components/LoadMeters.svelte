@@ -133,4 +133,10 @@
     color: var(--danger);
     font-weight: 600;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fill {
+      transition: none;
+    }
+  }
 </style>

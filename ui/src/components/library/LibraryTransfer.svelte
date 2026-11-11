@@ -2,6 +2,7 @@
   import { Upload, Download, X, Lock } from '@lucide/svelte';
   import { store } from '../../lib/store.svelte';
   import { t } from '../../lib/i18n.svelte';
+  import { tip } from '../../lib/tip';
   import type { ImportReport, LibraryKind } from '../../lib/api';
 
   let { kind, controls = true }: { kind?: LibraryKind; controls?: boolean } = $props();
@@ -65,7 +66,7 @@
   <dialog bind:this={dialog} onclose={() => { pending = null; error = ''; }} oncancel={(e) => { if (busy) e.preventDefault(); }} aria-labelledby="import-title">
     <header>
       <h2 id="import-title">{t('transfer.title')}</h2>
-      <button class="btn quiet icon" type="button" disabled={busy} aria-label={t('common.close')} onclick={() => dialog?.close()}><X size={16} /></button>
+      <button class="btn quiet icon" type="button" disabled={busy} aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog?.close()}><X size={16} /></button>
     </header>
     <div class="body">
       <p class="file">{pending.name}</p>

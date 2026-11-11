@@ -647,6 +647,8 @@ const en: Shape<typeof fr> = {
     goodTrial: "{n} successful test",
     goodTrials: "{n} successful tests",
     noTrialsFilter: "No test for this filter.",
+    noMatch: "No record matches this search.",
+    clearSearch: "Clear search",
     noTrialsYet: "No test yet.",
     noTrialsHint: "After machining, click “Record a test” in the calculator. “Good” tests become the lab’s reference settings.",
     record: "Record",
@@ -669,6 +671,8 @@ const en: Shape<typeof fr> = {
     restore: "Restore the original record",
   },
   toolEditor: {
+    previewNote: "Preview at the record’s proportions.",
+    previewGuess: "Dotted: shank or overall length not filled in.",
     openLink: "Open the supplier’s page",
     aboveSpindle: "Supplier’s minimum speed is above the spindle of “{machine}” ({max} {unit} max): this tool is meant for a faster spindle. At reduced speed the chip gets thicker: be careful.",
     namePlaceholder: "Ø6 2-flute upcut bit",
@@ -929,6 +933,14 @@ const en: Shape<typeof fr> = {
     next: "Next",
     start: "Start",
     createMachine: "Create my machine",
+  },
+  figure: {
+    plug: "An unplugged plug in front of its socket.",
+    loupe: "A loupe resting on a blank sheet.",
+    sieve: "Three stacked sieves, empty.",
+    plot: "A chart with no data.",
+    endmill: "A two-flute end mill lying on its side.",
+    toolPreview: "Preview of the end mill described by the record, at its proportions.",
   },
 };
 

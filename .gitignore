@@ -27,6 +27,15 @@
 # Politique de calcul locale d'un poste.
 /data/policy.toml
 
+# Planches de contrôle des illustrations (skill hairline-create) : à refaire, jamais à versionner
+/branding/illustrations/*.png
+/branding/illustrations/*-source.txt
+
+# Outils d'agents de développement (skills, réglages locaux) : propres au poste
+/.agents/
+/.claude/
+/skills-lock.json
+
 # Environnement et fichiers temporaires
 .env
 .tmp/

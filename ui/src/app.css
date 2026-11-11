@@ -67,20 +67,16 @@
   --segment-track: #161616;
   --track: #161616;
 
-  /* Schéma de coupe. */
-  --scene-grid: rgb(255 255 255 / 0.06);
-  --scene-layers: rgb(0 0 0 / 0.12);
-  --scene-removed: #1a1a1a;
-  --scene-pass: #6f6f6f;
-  --scene-table: #555;
-  --scene-dim: #7d7d7d;
-  --scene-collet: #4a4a4a;
-  --scene-collet-edge: #5e5e5e;
-  --scene-shank: #8d96a0;
-  --scene-flute: #b7c0ca;
-  --scene-stripes: #6f7882;
-  --scene-arrow: #cfcfcf;
-  --scene-inset: #161616;
+  /* Illustrations au trait (figures Hairline, skill fab-illustration-system) :
+     un seul trait, neutre. La plaque vaut le fond sur lequel la figure est
+     posée (`Figure.svelte` la règle par surface) ; les trois gris du trait
+     en sont tirés plus bas (`[data-hairline]`). Valent pour les deux thèmes. */
+  --hairline-plate: var(--bg-workspace);
+  --hairline-hi: var(--text-primary);
+
+  /* Schéma de coupe : le trait vient des jetons --hairline-* ; la matière est
+     teintée légèrement (opacité du brut), le reste est neutre. */
+  --scene-material-tint: 0.18;
   --scene-danger: rgb(239 91 91 / 0.35);
 
   /* Fenêtres et infobulles. */
@@ -168,19 +164,7 @@
   --segment-track: #e3e3e3;
   --track: #e0e0e0;
 
-  --scene-grid: rgb(0 0 0 / 0.08);
-  --scene-layers: rgb(0 0 0 / 0.1);
-  --scene-removed: #dcdcdc;
-  --scene-pass: #8a8a8a;
-  --scene-table: #9a9a9a;
-  --scene-dim: #8a8a8a;
-  --scene-collet: #a7adb3;
-  --scene-collet-edge: #8b9197;
-  --scene-shank: #8d96a0;
-  --scene-flute: #b7c0ca;
-  --scene-stripes: #5f6872;
-  --scene-arrow: #4d4d4d;
-  --scene-inset: #e4e4e4;
+  --scene-material-tint: 0.28;
   --scene-danger: rgb(201 37 45 / 0.25);
 
   --backdrop: rgb(0 0 0 / 0.28);
@@ -242,6 +226,20 @@ a:hover {
 
 .tabular {
   font-variant-numeric: tabular-nums;
+}
+
+/* Illustrations au trait : silhouette, trait courant et trait en retrait sont
+   le trait vif fondu dans la plaque (40 %, 26 %, 15 % : les poids de
+   Hairline). La figure garde ainsi sa hiérarchie sur toute surface, dans les
+   deux thèmes. Sans `color-mix`, elle prend les gris d'origine de Hairline. `.linework`
+   donne les mêmes gris à un dessin de l'application (schéma de coupe). */
+@supports (color: color-mix(in srgb, red, blue)) {
+  [data-hairline],
+  .linework {
+    --hairline-edge: color-mix(in srgb, var(--hairline-hi) 40%, var(--hairline-plate));
+    --hairline-mid: color-mix(in srgb, var(--hairline-hi) 26%, var(--hairline-plate));
+    --hairline-lo: color-mix(in srgb, var(--hairline-hi) 15%, var(--hairline-plate));
+  }
 }
 
 /* Champs de saisie compacts. */

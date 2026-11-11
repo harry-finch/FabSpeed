@@ -5,6 +5,8 @@
   import { Save, Copy, Archive, Undo2, Crosshair, Lock, ExternalLink, TriangleAlert, X } from '@lucide/svelte';
   import Field from '../Field.svelte';
   import NumberInput from '../NumberInput.svelte';
+  import Figure from '../Figure.svelte';
+  import { made } from '../../lib/figures';
   import { store } from '../../lib/store.svelte';
   import { CATEGORY_ORDER, FAMILY_IDS, HELIX_IDS, familyLabel, helixLabel, layer as layerText, rpmUnit } from '../../lib/labels';
   import { num } from '../../lib/format';
@@ -60,6 +62,20 @@
   const aboveSpindle = $derived(
     !!machine && d.supplier_rpm_min != null && d.supplier_rpm_min > machine.rpm_max,
   );
+  // Aperçu de la fraise d'une fiche, neuve ou existante : la figure suit la géométrie
+  // saisie, à ses proportions ; ce qui n'est pas renseigné reste en pointillé.
+  const endmill = made('endmill');
+  const shape = $derived({
+    family: d.family,
+    helix: d.helix,
+    flutes: d.flutes,
+    diameter: d.diameter_mm,
+    fluteLength: d.flute_length_mm,
+    shank: d.shank_mm,
+    overall: d.overall_length_mm,
+    tipAngle: d.tip_angle_deg,
+    upcut: d.upcut_length_mm ?? null,
+  });
   const safeUrl = $derived(d.url && /^https?:\/\//i.test(d.url) ? d.url : null);
   const goodTrials = $derived(store.catalog?.trials.filter((x) => x.tool_id === d.id && x.outcome === 'good').length ?? 0);
 
@@ -110,6 +126,10 @@
       <span class="layer {layer}" use:tip={layerText(layer).hint}>{layerText(layer).label}</span>
     {/if}
   </header>
+  <div class="preview">
+    <Figure figure={endmill} label={t('figure.toolPreview')} surface="panel" params={shape} />
+    <p class="sub">{t('toolEditor.previewNote')}{#if d.shank_mm == null || d.overall_length_mm == null}{' '}{t('toolEditor.previewGuess')}{/if}</p>
+  </div>
   {#if !isNew}<code class="id">{d.id}</code>{/if}
   {#if layer === 'base'}
     <p class="note">{t('editor.baseNote')}</p>
@@ -235,3 +255,19 @@
     </div>
   {/if}
 </form>
+
+<style>
+  /* L'aperçu reste en vue pendant qu'on fait défiler la fiche. */
+  .preview {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+    margin: 0 calc(-1 * var(--s3));
+    padding: var(--s1) var(--s3) var(--s2);
+    border-bottom: 1px solid var(--divider);
+    background: var(--bg-panel);
+    text-align: center;
+  }
+</style>

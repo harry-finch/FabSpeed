@@ -169,4 +169,11 @@
     white-space: nowrap;
     transition: left 220ms ease;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .marker,
+    .val {
+      transition: none;
+    }
+  }
 </style>

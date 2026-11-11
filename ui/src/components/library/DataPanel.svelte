@@ -7,6 +7,7 @@
   import LibraryTransfer from './LibraryTransfer.svelte';
   import { store } from '../../lib/store.svelte';
   import { t } from '../../lib/i18n.svelte';
+  import { tip } from '../../lib/tip';
   import { dateTime } from '../../lib/labels';
   import type { LabCounts, RestoreCheck } from '../../lib/api';
 
@@ -120,7 +121,7 @@
   <dialog bind:this={dialog} onclose={() => (pending = null)} aria-labelledby="restore-title">
     <header>
       <h2 id="restore-title"><ShieldCheck size={16} /> {t('data.checkTitle')}</h2>
-      <button class="btn quiet icon" type="button" aria-label={t('common.close')} onclick={() => dialog?.close()}><X size={16} /></button>
+      <button class="btn quiet icon" type="button" aria-label={t('common.close')} use:tip={t('common.close')} onclick={() => dialog?.close()}><X size={16} /></button>
     </header>
     <div class="body">
       <p class="ok">{t('data.checkOk', { name: pending.name })}</p>
