@@ -1,0 +1,11 @@
+format = 1
+nom = "FabSpeed"
+identite = "#ee46fc"
+logo = "branding/fabspeed-logo.svg"
+
+[[test]]
+type = "build"
+motif = "dist-desktop/*.dmg"
+
+[[test]]
+type = "release"
