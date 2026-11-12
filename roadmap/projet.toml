@@ -1,7 +1,9 @@
 format = 1
 nom = "FabSpeed"
+resume = "Feeds & Speeds"
 identite = "#ee46fc"
 logo = "branding/fabspeed-logo.svg"
+figure = "endmill"
 
 [[test]]
 type = "build"
