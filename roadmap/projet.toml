@@ -4,6 +4,7 @@ resume = "Feeds & Speeds"
 identite = "#ee46fc"
 logo = "branding/fabspeed-logo.svg"
 figure = "endmill"
+equerre = "2026-11-13"
 
 [[test]]
 type = "url"

@@ -2,10 +2,10 @@
 id: A-004
 type: valider
 titre: "Valider la mise d’équerre de FabSpeed"
-statut: a-faire
+statut: fait
 cree: 2026-11-13
 par: agent
-fait:
+fait: 2026-11-13
 motif: equerre
 ---
 
