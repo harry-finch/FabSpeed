@@ -6,8 +6,26 @@ logo = "branding/fabspeed-logo.svg"
 figure = "endmill"
 
 [[test]]
+type = "url"
+titre = "Serveur local avec interface compilée"
+url = "http://127.0.0.1:3030"
+commande = "cargo run -p fabspeed-server --locked"
+
+[[test]]
 type = "build"
 motif = "dist-desktop/*.dmg"
 
 [[test]]
 type = "release"
+
+[[jalons]]
+id = "v0.9.0-beta.1"
+titre = "Socle 0.9.0-beta.1"
+
+[[jalons]]
+id = "windows-installer"
+titre = "Préparation de l’installeur Windows"
+
+[[jalons]]
+id = "illustrations"
+titre = "Illustrations et schéma de coupe"
