@@ -8,6 +8,10 @@
 
 Rien en attente.
 
+## Actions à faire
+
+- [ ] [A-004](roadmap/actions/A-004-valider-la-mise-d-equerre-de-fabspeed.md) Valider la mise d’équerre de FabSpeed (valider)
+
 ## Livré
 
 ### v0.9.0-beta.1 : Socle 0.9.0-beta.1
