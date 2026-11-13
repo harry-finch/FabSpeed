@@ -66,6 +66,7 @@ Les deux fonctions de calibrage privé retournent sans exercer leur corpus lorsq
 
 ## Documentation et contributions
 
+- [État du projet](STATUS.md), [feuille de route](ROADMAP.md), [consignes d'agent](AGENTS.md).
 - [Guide utilisateur](docs/USER_GUIDE.md), [modèle de calcul](docs/CALCULATION_MODEL.md), [données](docs/DATA.md).
 - [Architecture](docs/ARCHITECTURE.md), [API REST](docs/API.md), [décisions](docs/adr).
 - [Publication source, limites et procédure de mise à jour](docs/SOURCE_PUBLICATION.md).

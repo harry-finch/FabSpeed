@@ -70,6 +70,7 @@ The two optional private calibration functions return without exercising their r
 
 ## Documentation and contributions
 
+- [Current project status](STATUS.md), [roadmap](ROADMAP.md), [agent instructions](AGENTS.md).
 - [User guide](docs/USER_GUIDE.md), [calculation model](docs/CALCULATION_MODEL.md), [data format](docs/DATA.md).
 - [Architecture](docs/ARCHITECTURE.md), [REST API](docs/API.md), [decision records](docs/adr).
 - [Source publication, limitations and future update procedure](docs/SOURCE_PUBLICATION.md).
