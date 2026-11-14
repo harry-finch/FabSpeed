@@ -2,11 +2,12 @@
 
 # FabSpeed : feuille de route
 
-**Avancement : 3 livrés sur 3** (100 %)
+**Avancement : 3 livrés sur 4** (75 %)
 
 ## Restant à faire
 
-Rien en attente.
+1. **[R-004 Refaire le logo (à la main)](roadmap/items/R-004-refaire-le-logo-a-la-main.md)** · Idée
+   Le design du logo ne me convient pas, je vais le refaire moi-même.
 
 ## Livré
 
