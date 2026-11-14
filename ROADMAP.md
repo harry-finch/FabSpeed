@@ -8,6 +8,10 @@
 
 Rien en attente.
 
+## Actions à faire
+
+- [ ] [A-006](roadmap/actions/A-006-choisir-quand-reconstruire-fabspeed-apres.md) Choisir quand reconstruire FabSpeed après nettoyage (decider)
+
 ## Livré
 
 ### v0.9.0-beta.1 : Socle 0.9.0-beta.1
