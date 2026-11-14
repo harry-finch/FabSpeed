@@ -55,7 +55,7 @@
   aria-labelledby="onb-title"
 >
   <header>
-    <img src="/fabspeed-logo.svg?v=2" alt="" width="28" height="28" />
+    <img src="/fabspeed-logo.svg?v=3" alt="" width="28" height="28" />
     <h2 id="onb-title">{t(`onboarding.${STEPS[step]}.title`)}</h2>
     <ol class="dots" aria-label={t('onboarding.progress', { n: step + 1, total: STEPS.length })}>
       {#each STEPS as s, i (s)}<li class:on={i === step} class:done={i < step}></li>{/each}

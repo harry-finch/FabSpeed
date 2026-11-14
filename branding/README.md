@@ -1,6 +1,6 @@
 # Identité visuelle
 
-`fabspeed-logo.svg` est la source vectorielle du logo **V2**, reconstruite le 25/10/2026 depuis `fabspeed-logo-v2.png` (référence conservée). Arcs et pivot magenta `#EE46FC`, tuile bleu graphite `#0C1928`, bordure `#496281`. ViewBox 1254 × 1254, taille intrinsèque 128 × 128, sans police ni image embarquée. La géométrie et les couleurs reprennent le PNG ; le grain du raster est retiré et l'extérieur de la tuile est transparent.
+`fabspeed-logo.svg` est la source du logo **V3**, issue de `fabspeed-logo-v3.svg`. Elle conserve les tracés visibles de la version fournie et retire uniquement les images de référence masquées intégrées au fichier d'origine. Symbole magenta `#EE46FC`, tuile bleu graphite `#0C1928`, bordure `#496281` ; viewBox 128 × 128.
 
 Utilisations :
 
@@ -11,7 +11,7 @@ Utilisations :
 - `crates/fabspeed-desktop/icons/` : icônes macOS, Windows et Linux (PNG, ICO, ICNS) ;
 - couleur d'identité (`--identity` dans `ui/src/app.css`) : `#EE46FC`, réservée au logo et au liseré supérieur, jamais à un état.
 
-Les images de l'interface et les favicons sont versionnés (`?v=2`) pour renouveler les caches. Les captures historiques dans `docs/images/` ne sont pas retouchées.
+Les images de l'interface et les favicons sont versionnés (`?v=3`) pour renouveler les caches. Les captures historiques dans `docs/images/` ne sont pas retouchées.
 
 Pour synchroniser les copies SVG et régénérer toutes les icônes depuis la source :
 

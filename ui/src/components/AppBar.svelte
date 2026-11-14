@@ -16,7 +16,7 @@
 
 <header class="bar">
   <div class="brand">
-    <img class="logo" src="/fabspeed-logo.svg?v=2" alt="" width="24" height="24" />
+    <img class="logo" src="/fabspeed-logo.svg?v=3" alt="" width="24" height="24" />
     <span class="name">FabSpeed</span>
     <span class="tag">Feeds &amp; Speeds</span>
   </div>
