@@ -4,7 +4,7 @@ This is a source preview of **0.9.0-beta.1**, with an independent initial Git
 history. The implementation and numerical reference data match the qualified
 software snapshot. Publication-specific changes concern documentation,
 attribution and the exclusion of private/internal files and installer CI.
-No stable V1 release, version tag or downloadable installer accompanies it.
+A Windows x64 beta installer was later published in [v0.9.0-beta.1](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1), built from commit 3345075. There is no stable V1 release.
 
 ## Platform status
 
@@ -18,8 +18,7 @@ No stable V1 release, version tag or downloadable installer accompanies it.
 | FabCAM | Catalogue consumption planned separately; no operational synchronization. |
 | Physical cutting validation | Software and synthetic fixtures do not establish physical machining validation. |
 
-There are no public installers or stable V1 release assets in this source
-publication. Existing historical design documents describe intended or past
+The beta release contains an unsigned Windows installer, but no macOS or Linux installer. It predates later source changes. Existing historical design documents describe intended or past
 development work; the table above states the current qualification boundary.
 
 ## Build prerequisites
@@ -59,11 +58,7 @@ remain available. Numerical fixtures have not been altered for publication.
 - Tauri resources enumerate seven exact base files, checked by
   `crates/fabspeed-desktop/public-data.sha256` and the build script. A broad
   resource glob is not acceptable. `.gitignore` is not a packaging boundary.
-- The historical installer workflow is excluded. The remaining native source
-  qualification workflow is manually triggered, has only `contents: read`,
-  pinned actions and no artifact upload, release, deployment or package push.
-  GitHub Actions are disabled for initial publication until deliberately enabled
-  for a later qualification run.
+- The manual native source qualification workflow has `contents: read`, pinned actions and no artifact upload. The separate manual Windows installer workflow uploads an Actions artifact; it does not automatically publish a release.
 - Registry dependency code and compiled output are absent. See
   [licensing and attribution](../THIRD_PARTY_NOTICES.md).
 

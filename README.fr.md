@@ -6,20 +6,20 @@
 
 Choisissez la machine, la matière, la fraise, l’opération et le maintien de la pièce. FabSpeed propose rotation, avance, plongée et profondeur de passe, en expliquant leur calcul et leur provenance avant de les reporter dans votre FAO.
 
-**Aperçu du code source — version 0.9.0-beta.1.** Ce dépôt possède un nouvel historique indépendant. Ce n’est pas une version stable FabSpeed V1 et aucun installeur ni binaire de release n’y est publié. Voir [l’état des plateformes et les prérequis](docs/SOURCE_PUBLICATION.md).
+**Préversion 0.9.0-beta.1.** Un [installeur Windows x64 non signé est disponible](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). Il correspond au commit 3345075, antérieur aux illustrations et au logo actuels. Aucun installeur macOS ou Linux n’est publié dans cette release ; voir [l’état des plateformes](docs/SOURCE_PUBLICATION.md).
 
-![Calcul, coupe à l’échelle et assistant](docs/images/calculate.jpg)
+![Calcul, coupe à l’échelle et assistant](docs/images/calcul-v3.jpg)
 
 ## Fonctionnalités
 
 - Moteur Rust déterministe : limites machine, contexte d’opération, charges estimées, explications et valeurs imposées explicites.
 - Coupe à l’échelle, jauge de copeau, leviers d’accélération et diagnostic par symptômes.
-- Bibliothèque locale de machines, matières et fraises ; import/export additif, sauvegarde et restauration.
+- Bibliothèque locale de machines, matières et fraises ; aperçu animé de la géométrie de la fraise dans sa fiche ; import/export additif, sauvegarde et restauration.
 - Essais d’usinage enregistrés ; un essai réussi peut devenir le réglage testé de son contexte exact. Un administrateur peut le valider ou retirer sa validation. Les fixtures synthétiques et tests logiciels ne constituent aucune validation physique.
 - Rôles invité et administrateur ; français et anglais ; thèmes sombre et clair ; millimètres et pouces.
 - Trois profils machine, quinze matières et onze géométries de fraise génériques. Aucun préréglage de lab préchargé. Les limites machine non confirmées restent marquées « estimées » ou « à vérifier ».
 
-![Bibliothèque](docs/images/library.jpg)
+![Bibliothèque et aperçu d’une fraise à compression](docs/images/fraises-v3.jpg)
 
 ## Catalogue FabApps
 
@@ -67,7 +67,7 @@ Les deux fonctions de calibrage privé retournent sans exercer leur corpus lorsq
 ## Documentation et contributions
 
 - [État du projet](STATUS.md), [feuille de route](ROADMAP.md), [consignes d'agent](AGENTS.md).
-- [Guide utilisateur](docs/USER_GUIDE.md), [modèle de calcul](docs/CALCULATION_MODEL.md), [données](docs/DATA.md).
+- [Guide utilisateur](docs/USER_GUIDE.md), [article sur les paramètres de coupe](docs/PARAMETRES_DE_COUPE.md), [modèle de calcul](docs/CALCULATION_MODEL.md), [données](docs/DATA.md).
 - [Architecture](docs/ARCHITECTURE.md), [API REST](docs/API.md), [décisions](docs/adr).
 - [Publication source, limites et procédure de mise à jour](docs/SOURCE_PUBLICATION.md).
 

@@ -6,24 +6,20 @@
 
 FabSpeed proposes cautious starting values for spindle speed, feed, plunge and depth of cut. Choose a machine, material, tool, operation and workholding; inspect the calculation and its provenance before using the values in your CAM software.
 
-**Source preview — version 0.9.0-beta.1.** This repository is an independently initialized source snapshot, not a stable FabSpeed V1 release. No installers or release binaries are published here. See [platform status and build requirements](docs/SOURCE_PUBLICATION.md).
+**Preview version 0.9.0-beta.1.** An [unsigned Windows x64 installer is available](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). It was built from commit 3345075, before the current illustrations and logo. No macOS or Linux installer is included in that release; see [platform status](docs/SOURCE_PUBLICATION.md).
 
-![Calculation, cutting diagram and assistant](docs/images/calculate.jpg)
+![Calculation, cutting diagram and assistant](docs/images/calcul-v3.jpg)
 
 ## Features
 
 - A deterministic Rust engine with machine limits, operation context, estimated loads, explanations and explicit manual overrides.
 - A scale drawing of the cut, chip-thickness gauge, speed-up suggestions and symptom-based diagnosis.
-- A local library of machines, materials and tools, with additive import/export and backup/restore.
+- A local library of machines, materials and tools, with an animated tool geometry preview in the tool editor, additive import/export and backup/restore.
 - Recorded machining trials; a successful trial can become a tested setting for its exact context. An administrator can validate or revoke it. Software tests and synthetic examples are not physical machining validation.
 - Guest and administrator roles; French and English; dark and light themes; millimetres and inches.
 - Three machine profiles, 15 materials and 11 generic tool geometries. The shipped model contains no preloaded lab presets. Unconfirmed machine limits remain marked as estimates or “to verify”.
 
-| Diagnosis | V-carving |
-| --- | --- |
-| ![Diagnosis](docs/images/diagnose.jpg) | ![V-carving](docs/images/v-carving.jpg) |
-| Library | Light theme |
-| ![Library](docs/images/library.jpg) | ![Light theme](docs/images/calculate-light.jpg) |
+![Tool library and compression cutter preview](docs/images/fraises-v3.jpg)
 
 ## FabApps catalogue
 
@@ -71,7 +67,7 @@ The two optional private calibration functions return without exercising their r
 ## Documentation and contributions
 
 - [Current project status](STATUS.md), [roadmap](ROADMAP.md), [agent instructions](AGENTS.md).
-- [User guide](docs/USER_GUIDE.md), [calculation model](docs/CALCULATION_MODEL.md), [data format](docs/DATA.md).
+- [User guide](docs/USER_GUIDE.md), [feeds and speeds article](docs/PARAMETRES_DE_COUPE.md) (French), [calculation model](docs/CALCULATION_MODEL.md), [data format](docs/DATA.md).
 - [Architecture](docs/ARCHITECTURE.md), [REST API](docs/API.md), [decision records](docs/adr).
 - [Source publication, limitations and future update procedure](docs/SOURCE_PUBLICATION.md).
 
