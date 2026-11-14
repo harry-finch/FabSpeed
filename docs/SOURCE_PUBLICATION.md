@@ -4,7 +4,7 @@ This is a source preview of **0.9.0-beta.1**, with an independent initial Git
 history. The implementation and numerical reference data match the qualified
 software snapshot. Publication-specific changes concern documentation,
 attribution and the exclusion of private/internal files and installer CI.
-A Windows x64 beta installer was later published in [v0.9.0-beta.1](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1), built from commit 3345075. There is no stable V1 release.
+The [v0.9.0-beta.1 release](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1) contains an original Windows installer from commit 3345075 and newer Windows x64 and macOS arm64 packages built from 5d834a7. The tag remains at 3345075. There is no stable V1 release.
 
 ## Platform status
 
@@ -18,7 +18,7 @@ A Windows x64 beta installer was later published in [v0.9.0-beta.1](https://gith
 | FabCAM | Catalogue consumption planned separately; no operational synchronization. |
 | Physical cutting validation | Software and synthetic fixtures do not establish physical machining validation. |
 
-The beta release contains an unsigned Windows installer, but no macOS or Linux installer. It predates later source changes. Existing historical design documents describe intended or past
+The beta release contains unsigned Windows and macOS packages; macOS is not notarized. No Linux package is published. Existing historical design documents describe intended or past
 development work; the table above states the current qualification boundary.
 
 ## Build prerequisites

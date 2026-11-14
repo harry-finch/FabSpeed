@@ -6,7 +6,7 @@
 
 Choisissez la machine, la matière, la fraise, l’opération et le maintien de la pièce. FabSpeed propose rotation, avance, plongée et profondeur de passe, en expliquant leur calcul et leur provenance avant de les reporter dans votre FAO.
 
-**Préversion 0.9.0-beta.1.** Un [installeur Windows x64 non signé est disponible](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). Il correspond au commit 3345075, antérieur aux illustrations et au logo actuels. Aucun installeur macOS ou Linux n’est publié dans cette release ; voir [l’état des plateformes](docs/SOURCE_PUBLICATION.md).
+**Préversion 0.9.0-beta.1.** Des [paquets Windows x64 et macOS Apple Silicon non signés sont disponibles](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). Les nouveaux paquets proviennent du commit 5d834a7 ; le tag et l’installeur Windows historique correspondent au commit 3345075. Aucun paquet Linux n’est publié ; voir [l’état des plateformes](docs/SOURCE_PUBLICATION.md).
 
 ![Calcul, coupe à l’échelle et assistant](docs/images/calcul-v3.jpg)
 

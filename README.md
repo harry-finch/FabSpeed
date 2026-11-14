@@ -6,7 +6,7 @@
 
 FabSpeed proposes cautious starting values for spindle speed, feed, plunge and depth of cut. Choose a machine, material, tool, operation and workholding; inspect the calculation and its provenance before using the values in your CAM software.
 
-**Preview version 0.9.0-beta.1.** An [unsigned Windows x64 installer is available](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). It was built from commit 3345075, before the current illustrations and logo. No macOS or Linux installer is included in that release; see [platform status](docs/SOURCE_PUBLICATION.md).
+**Preview version 0.9.0-beta.1.** [Unsigned Windows x64 and macOS Apple Silicon packages are available](https://github.com/harry-finch/FabSpeed/releases/tag/v0.9.0-beta.1). The new packages were built from commit 5d834a7; the tag and original Windows installer correspond to commit 3345075. No Linux package is published; see [platform status](docs/SOURCE_PUBLICATION.md).
 
 ![Calculation, cutting diagram and assistant](docs/images/calcul-v3.jpg)
 
