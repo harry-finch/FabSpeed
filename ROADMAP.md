@@ -2,12 +2,11 @@
 
 # FabSpeed : feuille de route
 
-**Avancement : 3 livrés sur 4** (75 %)
+**Avancement : 4 livrés sur 4** (100 %)
 
 ## Restant à faire
 
-1. **[R-004 Refaire le logo (à la main)](roadmap/items/R-004-refaire-le-logo-a-la-main.md)** · Idée
-   Le design du logo ne me convient pas, je vais le refaire moi-même.
+Rien en attente.
 
 ## Livré
 
@@ -25,3 +24,8 @@
 
 - [R-003 Illustrations et schéma de coupe](roadmap/items/R-003-illustrations-et-schema-de-coupe.md) · livrée le 2026-11-13
   Figure endmill, aperçu paramétrique des fraises et schéma de coupe au trait ; figure également déclarée pour la carte FabBoard.
+
+### Sans jalon
+
+- [R-004 Refaire le logo (à la main)](roadmap/items/R-004-refaire-le-logo-a-la-main.md) · livrée le 2026-11-14
+  Le design du logo ne me convient pas, je vais le refaire moi-même.
